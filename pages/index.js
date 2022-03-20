@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import Image from 'next/image'
-import albumCover from '../public/albums/0000.png'
+import albumCover from '../public/albums/0108.png'
 
 export default function Home() {
   return (
@@ -21,20 +21,28 @@ export default function Home() {
           Can you guess the correct genre?
         </p>
         <div className={styles.image_wrapper}>
-      <div className={styles.image_container}>
-        <Image
-          className={styles.image}
-          src={albumCover}
-          alt="album cover"
-          />
-      </div>
-      </div>
+          <div className={styles.image_container}>
+            <Image
+              className={styles.image}
+              src={albumCover}
+              alt="album cover"
+            />
+          </div>
+        </div>
+        <div className={styles.button_container}>
+          <button className={styles.button} type="button" onclick="{alert('Hello world!')">Genre 1</button>
+          <button className={styles.button} type="button" onclick="{alert('Hello world!')">Genre 2</button>
+          <button className={styles.button} type="button" onclick="{alert('Hello world!')">Genre 3</button>
+          <button className={styles.button} type="button" onclick="{alert('Hello world!')">Genre 4</button>
+          <button className={styles.button} type="button" onclick="{alert('Hello world!')">Genre 5</button>
+        </div>
+
       </main>
 
       <footer className={styles.footer}>
-          <p>
-            Any questions or suggestions? Contact us at <a className={styles.email} href="mailto: placeholder@itu.dk">placeholder@itu.dk</a>
-          </p>
+        <p>
+          Any questions or suggestions? Contact us at <a className={styles.email} href="mailto: placeholder@itu.dk">placeholder@itu.dk</a>
+        </p>
       </footer>
     </div>
   )
