@@ -2,6 +2,8 @@ import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import Image from 'next/image'
 import albumCover from '../public/albums/0108.png'
+import { Album } from '../components/Album'
+
 
 export default function Home() {
   return (
@@ -21,20 +23,14 @@ export default function Home() {
           Can you guess the correct genre?
         </p>
         <div className={styles.image_wrapper}>
-          <div className={styles.image_container}>
-            <Image
-              className={styles.image}
-              src={albumCover}
-              alt="album cover"
-            />
-          </div>
+          <Album/>
         </div>
         <div className={styles.button_container}>
-          <button className={styles.button} type="button" onclick="{alert('Hello world!')">Genre 1</button>
-          <button className={styles.button} type="button" onclick="{alert('Hello world!')">Genre 2</button>
-          <button className={styles.button} type="button" onclick="{alert('Hello world!')">Genre 3</button>
-          <button className={styles.button} type="button" onclick="{alert('Hello world!')">Genre 4</button>
-          <button className={styles.button} type="button" onclick="{alert('Hello world!')">Genre 5</button>
+          <button className={styles.button} type="button">Genre 1</button>
+          <button className={styles.button} type="button">Genre 2</button>
+          <button className={styles.button} type="button">Genre 3</button>
+          <button className={styles.button} type="button">Genre 4</button>
+          <button className={styles.button} type="button">Genre 5</button>
         </div>
 
       </main>
