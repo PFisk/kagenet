@@ -152,11 +152,11 @@
 }
 
 .button_container {
-  padding: 20px;
+  padding: 20px 0px;
   width: 100%;
   max-width: 800px;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   flex-grow: 1;
   flex-wrap: wrap;
@@ -175,6 +175,7 @@
   background: linear-gradient(90deg,#315849, #1e9966);
   background-size: 150%;
   border-radius: 16px;
+  margin: 3px;
 }
 
 .button_alt {

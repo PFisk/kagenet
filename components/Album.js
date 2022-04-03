@@ -10,6 +10,7 @@ export const Album = () => {
 
   const [imageData, setImageData] = useState(null);
   const [album, setAlbum] = useState(null);
+  const [progress, setProgress] = useState(0);
 
   useEffect(() => {
     async function fetchData() {
@@ -21,6 +22,7 @@ export const Album = () => {
 
   async function setNextAlbum() {
     setAlbum(imageData[albumcount % imageData.length]);
+    setProgress(Math.round(albumcount / imageData.length * 100))
     albumcount++;
   }
 
@@ -38,10 +40,6 @@ export const Album = () => {
       console.log("Error: ", error)
     })
   }
-
-/*   function getProgress() {
-    return albumcount / imageData.length * 100;
-  } */
 
   return (
     <div>
@@ -108,7 +106,7 @@ export const Album = () => {
           </button>
         </div>
         <div>
-          {/* <ProgressBar completed={() => getProgress}/> */}
+          <ProgressBar bgColor={"#96cda4"} completed={progress}/>
         </div>
       </div>
       }
