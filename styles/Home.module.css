@@ -15,6 +15,16 @@
   align-items: center;
 }
 
+.survey_info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 500px;
+  margin-top: 4rem;
+}
+
 .image_container{
   max-width: 400px;
   width: 100%;
@@ -47,12 +57,12 @@
   align-items: center;
 }
 
-.footer a {
+/* .footer a {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-grow: 1;
-}
+} */
 
 .email{
   color: #eaeaea;
@@ -165,6 +175,28 @@
   background: linear-gradient(90deg,#315849, #1e9966);
   background-size: 150%;
   border-radius: 16px;
+}
+
+.button_alt {
+  text-decoration: none;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: inherit;
+  color: rgb(255, 255, 255);
+  width: 9em;
+  height: 3em;
+  line-height: 2em;
+  text-align: center;
+  background: linear-gradient(90deg,#6aaeee, #7b9299);
+  background-size: 150%;
+  border-radius: 16px;
+  margin: 20px;
+}
+
+.button_alt:hover {
+  border: 2px solid #2b8dcf;
+  cursor: pointer;
 }
 
 .button:hover {

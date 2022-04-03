@@ -16,16 +16,12 @@ export default function Home() {
         <h1 className={styles.title}>
           Welcome to KageNet.
         </h1>
-
-        <p className={styles.description}>
-          Can you guess the correct genre?
-        </p>
           <Album/>
       </main>
 
       <footer className={styles.footer}>
         <p>
-          Any questions or suggestions? Contact us at <a className={styles.email} href="mailto: placeholder@itu.dk">placeholder@itu.dk</a>
+          Any questions or suggestions? Contact us at <a className={styles.email} href="mailto: chrst@itu.dk">chrst@itu.dk</a> or <a className={styles.email} href="mailto: phfi@itu.dk">phfi@itu.dk</a>
         </p>
       </footer>
     </div>
