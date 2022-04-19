@@ -3,27 +3,66 @@ import styles from "../styles/Home.module.css";
 import getAllImages from "../data/imageData.js";
 import Parse from "parse";
 import ProgressBar from "@ramonak/react-progress-bar"
+import Modal from "./Modal.js";
 
 let albumcount = 0;
+let responseThreshold = false;
+const threshold = 20;
 
 export const Album = () => {
 
   const [imageData, setImageData] = useState(null);
   const [album, setAlbum] = useState(null);
   const [progress, setProgress] = useState(0);
+  const [showThreshold, setShowThreshold] = useState(false);
+  const [showComplete, setShowComplete] = useState(false);
+  const [userID, setUserID] = useState(null);
 
   useEffect(() => {
     async function fetchData() {
       const allAlbums = await getAllImages();
-      setImageData(allAlbums);
+      const shuffledArray = shuffle(allAlbums);
+      setImageData(shuffledArray);
     }
+    function genID() {
+      const crypto = require("crypto");
+      const id = crypto.randomBytes(20).toString('hex');
+      setUserID(id);
+    }
+
     fetchData();
+    genID();
+    
   }, [])
+
+  function shuffle(array) {
+    const shuffledArray = array.map(value => ({value, sort: Math.random() }))
+    .sort((a, b) => a.sort - b.sort)
+    .map(({ value }) => value)
+
+    return shuffledArray;
+  }
 
   async function setNextAlbum() {
     setAlbum(imageData[albumcount % imageData.length]);
     setProgress(Math.round(albumcount / imageData.length * 100))
+    
+/*     if (albumcount >= threshold) {
+      setShowThreshold(true);
+    } */
+    
+    if ((albumcount / imageData.length) * 100 >= 100) {
+      setShowThreshold(true); //Remove, add above
+      //Disabled for debugging
+      //setShowComplete(true);
+    }
+
     albumcount++;
+  }
+
+  function surveyThreshold() {
+    setShowThreshold(false);
+    responseThreshold = true;
   }
 
   async function response(guess) {
@@ -32,6 +71,7 @@ export const Album = () => {
 
     newResponse.set("cover_name", album.id)
     newResponse.set("guess", guess.toLowerCase())
+    newResponse.set("user_id", userID)
 
     newResponse.save().then((response) => {
       console.log("genre guessed: ", response.get("guess"))
@@ -45,14 +85,28 @@ export const Album = () => {
     <div>
       {!album && (
         <div className={styles.survey_info}>
-          <p>The album covers shown are purposefully in low resolution, as this is the same resolution as the machine learning models are training on.
+          <p>
+            This survey is part of a master thesis project in which we are researching potential connections between music and its corresponding album cover art.
+            One part of the project is focused on understanding associations using machine learning, while the other is focused on human evaluation.
+            <br />
+            <br />
+            The album covers shown are purposefully in low resolution, as this is the same resolution as the machine learning models are training on.
             <br />
             <br />
             The survey is simple - answer what you think are the correct genre for the album covers shown.
+            <br />
+            <br />
+            Thanks a lot for your time!
           </p>
           <button onClick={setNextAlbum} className={styles.button_alt}>Lets go!</button>
         </div>
       )}
+      {!responseThreshold && <Modal title="Thank you!" onClose={() => surveyThreshold()} show={showThreshold} hasButton={true}
+        body="Your contribution is much appriciated. You can stop now, but there are more covers if you wish to continue. Any additional response helps 🙏"
+      />}
+      <Modal title="Survey complete!" onClose={setShowComplete} show={showComplete} hasButton={false}
+        body="You completed the entire survey! Thanks a lot ❤"
+      />
       {album && (
         <div>
           <p className={styles.description}>
@@ -77,7 +131,7 @@ export const Album = () => {
           <button onClick={() => response("pop")} className={styles.button} type="button">
             Pop
           </button>
-          <button onClick={() => response("hip-hop")} className={styles.button} type="button">
+          <button onClick={() => response("hip hop")} className={styles.button} type="button">
             Hip-Hop
           </button>
           <button onClick={() => response("electronic")} className={styles.button} type="button">
@@ -86,10 +140,10 @@ export const Album = () => {
           <button onClick={() => response("jazz")} className={styles.button} type="button">
             Jazz
           </button>
-          <button onClick={() => response("folk, country")} className={styles.button} type="button">
+          <button onClick={() => response("folk / country")} className={styles.button} type="button">
             Folk and Country
           </button>
-          <button onClick={() => response("funk, soul")} className={styles.button} type="button">
+          <button onClick={() => response("funk / soul")} className={styles.button} type="button">
             Funk and Soul
           </button>
           <button onClick={() => response("classical")} className={styles.button} type="button">
@@ -106,8 +160,11 @@ export const Album = () => {
           </button>
         </div>
         <div>
-          <ProgressBar bgColor={"#96cda4"} completed={progress}/>
+          {!responseThreshold && <ProgressBar bgColor={"#109933"} completed={progress}/>}
         </div>
+          <button onClick={fillDatabase()} className={styles.button} type="button">
+            Add to DB
+          </button>
       </div>
       }
     </div>

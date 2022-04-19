@@ -1,0 +1,74 @@
+[
+    {
+        "title": "Jesus' Tod",
+        "artist": "Burzum",
+        "album": "Filosofem",
+        "id": "album_0",
+        "uri": "spotify:track:2XHG1C3ksw9EAclBFDYZ2M",
+        "real": true,
+        "img_path": "images\\0.png"
+    },
+    {
+        "title": "Fever",
+        "artist": "Mountain",
+        "album": "Mystic Fire",
+        "id": "album_1",
+        "uri": "spotify:track:3jqyORmugY2Gt2q8xUkhrK",
+        "real": true,
+        "img_path": "images\\1.png"
+    },
+    {
+        "title": "Swing Thing",
+        "artist": "Gary Bartz",
+        "album": "Music Is My Sanctuary",
+        "id": "album_3",
+        "uri": "spotify:track:7bZ2RvbCd54g6x6YppzRJe",
+        "real": true,
+        "img_path": "images\\3.png"
+    },
+    {
+        "title": "Time To Discover",
+        "artist": "Robert Bradley's Blackwater Surprise",
+        "album": "Time To Discover",
+        "id": "album_4",
+        "uri": "spotify:track:5DVWNYKT18NUiR5toY7Jqe",
+        "real": true,
+        "img_path": "images\\4.png"
+    },
+    {
+        "title": "Phua Kao",
+        "artist": "Khun Narin",
+        "album": "II",
+        "id": "album_5",
+        "uri": "spotify:track:7pyJJFEGSwxDRtZzVoQFHL",
+        "real": true,
+        "img_path": "images\\5.png"
+    },
+    {
+        "title": "Even Angels",
+        "artist": "Superpitcher",
+        "album": "Here Comes Love",
+        "id": "album_6",
+        "uri": "spotify:track:23UaEoB8vXrTnqoTvzUkBt",
+        "real": true,
+        "img_path": "images\\6.png"
+    },
+    {
+        "title": "Somedays",
+        "artist": "Regina Spektor",
+        "album": "Soviet Kitsch",
+        "id": "album_7",
+        "uri": "spotify:track:1VrCD1NPFFHUBk6Lew0Kkz",
+        "real": true,
+        "img_path": "images\\7.png"
+    },
+    {
+        "title": "Italian Cinema",
+        "artist": "Carla dal Forno",
+        "album": "You Know What It's Like ",
+        "id": "album_8",
+        "uri": "spotify:track:5FVkN0ohSdVHt5XBuYYpOF",
+        "real": true,
+        "img_path": "images\\8.png"
+    }
+]
