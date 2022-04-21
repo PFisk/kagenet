@@ -1,74 +1,1782 @@
 [
     {
-        "title": "Jesus' Tod",
-        "artist": "Burzum",
-        "album": "Filosofem",
-        "id": "album_0",
-        "uri": "spotify:track:2XHG1C3ksw9EAclBFDYZ2M",
+        "title": "Capital City - Remastered 2002",
+        "artist": "Simple Minds",
+        "album": "Empires And Dance",
+        "genre": "electronic",
+        "uri": "spotify:track:7zzdiBe3usdBtyqHEekCEs",
         "real": true,
-        "img_path": "images\\0.png"
+        "img_path": "images\\0.png",
+        "album_id": "album_0"
     },
     {
-        "title": "Fever",
-        "artist": "Mountain",
-        "album": "Mystic Fire",
-        "id": "album_1",
-        "uri": "spotify:track:3jqyORmugY2Gt2q8xUkhrK",
-        "real": true,
-        "img_path": "images\\1.png"
+        "title": "Capital City - Remastered 2002",
+        "artist": "Simple Minds",
+        "album": "Empires And Dance",
+        "genre": "electronic",
+        "uri": "spotify:track:7zzdiBe3usdBtyqHEekCEs",
+        "real": false,
+        "img_path": "images\\0f.png",
+        "album_id": "album_0f"
     },
     {
-        "title": "Swing Thing",
-        "artist": "Gary Bartz",
-        "album": "Music Is My Sanctuary",
-        "id": "album_3",
-        "uri": "spotify:track:7bZ2RvbCd54g6x6YppzRJe",
+        "title": "Capital City - Remastered 2002",
+        "artist": "Simple Minds",
+        "album": "Empires And Dance",
+        "genre": "rock",
+        "uri": "spotify:track:7zzdiBe3usdBtyqHEekCEs",
         "real": true,
-        "img_path": "images\\3.png"
+        "img_path": "images\\0.png",
+        "album_id": "album_0"
     },
     {
-        "title": "Time To Discover",
-        "artist": "Robert Bradley's Blackwater Surprise",
-        "album": "Time To Discover",
-        "id": "album_4",
-        "uri": "spotify:track:5DVWNYKT18NUiR5toY7Jqe",
-        "real": true,
-        "img_path": "images\\4.png"
+        "title": "Capital City - Remastered 2002",
+        "artist": "Simple Minds",
+        "album": "Empires And Dance",
+        "genre": "rock",
+        "uri": "spotify:track:7zzdiBe3usdBtyqHEekCEs",
+        "real": false,
+        "img_path": "images\\0f.png",
+        "album_id": "album_0f"
     },
     {
-        "title": "Phua Kao",
-        "artist": "Khun Narin",
-        "album": "II",
-        "id": "album_5",
-        "uri": "spotify:track:7pyJJFEGSwxDRtZzVoQFHL",
+        "title": "Metal 'N' Smoke",
+        "artist": "Van Wilks",
+        "album": "Koko's Hideaway",
+        "genre": "rock",
+        "uri": "spotify:track:1XHST9DaGA0PIEpSlvBx1t",
         "real": true,
-        "img_path": "images\\5.png"
+        "img_path": "images\\1.png",
+        "album_id": "album_1"
     },
     {
-        "title": "Even Angels",
-        "artist": "Superpitcher",
-        "album": "Here Comes Love",
-        "id": "album_6",
-        "uri": "spotify:track:23UaEoB8vXrTnqoTvzUkBt",
-        "real": true,
-        "img_path": "images\\6.png"
+        "title": "Metal 'N' Smoke",
+        "artist": "Van Wilks",
+        "album": "Koko's Hideaway",
+        "genre": "rock",
+        "uri": "spotify:track:1XHST9DaGA0PIEpSlvBx1t",
+        "real": false,
+        "img_path": "images\\1f.png",
+        "album_id": "album_1f"
     },
     {
-        "title": "Somedays",
-        "artist": "Regina Spektor",
-        "album": "Soviet Kitsch",
-        "id": "album_7",
-        "uri": "spotify:track:1VrCD1NPFFHUBk6Lew0Kkz",
+        "title": "Metal 'N' Smoke",
+        "artist": "Van Wilks",
+        "album": "Koko's Hideaway",
+        "genre": "blues",
+        "uri": "spotify:track:1XHST9DaGA0PIEpSlvBx1t",
         "real": true,
-        "img_path": "images\\7.png"
+        "img_path": "images\\1.png",
+        "album_id": "album_1"
     },
     {
-        "title": "Italian Cinema",
-        "artist": "Carla dal Forno",
-        "album": "You Know What It's Like ",
-        "id": "album_8",
-        "uri": "spotify:track:5FVkN0ohSdVHt5XBuYYpOF",
+        "title": "Metal 'N' Smoke",
+        "artist": "Van Wilks",
+        "album": "Koko's Hideaway",
+        "genre": "blues",
+        "uri": "spotify:track:1XHST9DaGA0PIEpSlvBx1t",
+        "real": false,
+        "img_path": "images\\1f.png",
+        "album_id": "album_1f"
+    },
+    {
+        "title": "My December - Live at Cox Arena, San Diego, CA, 2/23/2002 - Projekt Revolution Tour",
+        "artist": "Linkin Park",
+        "album": "Reanimation",
+        "genre": "hip hop",
+        "uri": "spotify:track:2W4GuOrUp7KEBcchAH8pmu",
         "real": true,
-        "img_path": "images\\8.png"
+        "img_path": "images\\3.png",
+        "album_id": "album_3"
+    },
+    {
+        "title": "My December - Live at Cox Arena, San Diego, CA, 2/23/2002 - Projekt Revolution Tour",
+        "artist": "Linkin Park",
+        "album": "Reanimation",
+        "genre": "hip hop",
+        "uri": "spotify:track:2W4GuOrUp7KEBcchAH8pmu",
+        "real": false,
+        "img_path": "images\\3f.png",
+        "album_id": "album_3f"
+    },
+    {
+        "title": "My December - Live at Cox Arena, San Diego, CA, 2/23/2002 - Projekt Revolution Tour",
+        "artist": "Linkin Park",
+        "album": "Reanimation",
+        "genre": "rock",
+        "uri": "spotify:track:2W4GuOrUp7KEBcchAH8pmu",
+        "real": true,
+        "img_path": "images\\3.png",
+        "album_id": "album_3"
+    },
+    {
+        "title": "My December - Live at Cox Arena, San Diego, CA, 2/23/2002 - Projekt Revolution Tour",
+        "artist": "Linkin Park",
+        "album": "Reanimation",
+        "genre": "rock",
+        "uri": "spotify:track:2W4GuOrUp7KEBcchAH8pmu",
+        "real": false,
+        "img_path": "images\\3f.png",
+        "album_id": "album_3f"
+    },
+    {
+        "title": "Sinner Man",
+        "artist": "Brother John Sellers",
+        "album": "Baptist Shouts And Gospel Songs",
+        "genre": "funk / soul",
+        "uri": "spotify:track:3FVAFGQYqgdyopgpCErEGp",
+        "real": true,
+        "img_path": "images\\4.png",
+        "album_id": "album_4"
+    },
+    {
+        "title": "Sinner Man",
+        "artist": "Brother John Sellers",
+        "album": "Baptist Shouts And Gospel Songs",
+        "genre": "funk / soul",
+        "uri": "spotify:track:3FVAFGQYqgdyopgpCErEGp",
+        "real": false,
+        "img_path": "images\\4f.png",
+        "album_id": "album_4f"
+    },
+    {
+        "title": "Sinner Man",
+        "artist": "Brother John Sellers",
+        "album": "Baptist Shouts And Gospel Songs",
+        "genre": "blues",
+        "uri": "spotify:track:3FVAFGQYqgdyopgpCErEGp",
+        "real": true,
+        "img_path": "images\\4.png",
+        "album_id": "album_4"
+    },
+    {
+        "title": "Sinner Man",
+        "artist": "Brother John Sellers",
+        "album": "Baptist Shouts And Gospel Songs",
+        "genre": "blues",
+        "uri": "spotify:track:3FVAFGQYqgdyopgpCErEGp",
+        "real": false,
+        "img_path": "images\\4f.png",
+        "album_id": "album_4f"
+    },
+    {
+        "title": "Thanks To Uncle John",
+        "artist": "Merle Haggard",
+        "album": "If I Could Only Fly",
+        "genre": "folk / country",
+        "uri": "spotify:track:5wC4KDQ7IhKMgRblQUEqje",
+        "real": true,
+        "img_path": "images\\5.png",
+        "album_id": "album_5"
+    },
+    {
+        "title": "Thanks To Uncle John",
+        "artist": "Merle Haggard",
+        "album": "If I Could Only Fly",
+        "genre": "folk / country",
+        "uri": "spotify:track:5wC4KDQ7IhKMgRblQUEqje",
+        "real": false,
+        "img_path": "images\\5f.png",
+        "album_id": "album_5f"
+    },
+    {
+        "title": "Landscape Of Love",
+        "artist": "M People",
+        "album": "Northern Soul",
+        "genre": "electronic",
+        "uri": "spotify:track:6EJA51yPaJ6IFsxSnpPEd7",
+        "real": true,
+        "img_path": "images\\6.png",
+        "album_id": "album_6"
+    },
+    {
+        "title": "Landscape Of Love",
+        "artist": "M People",
+        "album": "Northern Soul",
+        "genre": "electronic",
+        "uri": "spotify:track:6EJA51yPaJ6IFsxSnpPEd7",
+        "real": false,
+        "img_path": "images\\6f.png",
+        "album_id": "album_6f"
+    },
+    {
+        "title": "Landscape Of Love",
+        "artist": "M People",
+        "album": "Northern Soul",
+        "genre": "funk / soul",
+        "uri": "spotify:track:6EJA51yPaJ6IFsxSnpPEd7",
+        "real": true,
+        "img_path": "images\\6.png",
+        "album_id": "album_6"
+    },
+    {
+        "title": "Landscape Of Love",
+        "artist": "M People",
+        "album": "Northern Soul",
+        "genre": "funk / soul",
+        "uri": "spotify:track:6EJA51yPaJ6IFsxSnpPEd7",
+        "real": false,
+        "img_path": "images\\6f.png",
+        "album_id": "album_6f"
+    },
+    {
+        "title": "Tacobel Canon",
+        "artist": "Ratatat",
+        "album": "Classics",
+        "genre": "electronic",
+        "uri": "spotify:track:1U3aIlw4n2NdSpsGCCQkUs",
+        "real": true,
+        "img_path": "images\\7.png",
+        "album_id": "album_7"
+    },
+    {
+        "title": "Tacobel Canon",
+        "artist": "Ratatat",
+        "album": "Classics",
+        "genre": "electronic",
+        "uri": "spotify:track:1U3aIlw4n2NdSpsGCCQkUs",
+        "real": false,
+        "img_path": "images\\7f.png",
+        "album_id": "album_7f"
+    },
+    {
+        "title": "Tacobel Canon",
+        "artist": "Ratatat",
+        "album": "Classics",
+        "genre": "rock",
+        "uri": "spotify:track:1U3aIlw4n2NdSpsGCCQkUs",
+        "real": true,
+        "img_path": "images\\7.png",
+        "album_id": "album_7"
+    },
+    {
+        "title": "Tacobel Canon",
+        "artist": "Ratatat",
+        "album": "Classics",
+        "genre": "rock",
+        "uri": "spotify:track:1U3aIlw4n2NdSpsGCCQkUs",
+        "real": false,
+        "img_path": "images\\7f.png",
+        "album_id": "album_7f"
+    },
+    {
+        "title": "Shark Attack Dub",
+        "artist": "Alborosie",
+        "album": "Back-A-Yard Dub",
+        "genre": "reggae",
+        "uri": "spotify:track:2m3498OBL445hESVQqwWa3",
+        "real": true,
+        "img_path": "images\\8.png",
+        "album_id": "album_8"
+    },
+    {
+        "title": "Shark Attack Dub",
+        "artist": "Alborosie",
+        "album": "Back-A-Yard Dub",
+        "genre": "reggae",
+        "uri": "spotify:track:2m3498OBL445hESVQqwWa3",
+        "real": false,
+        "img_path": "images\\8f.png",
+        "album_id": "album_8f"
+    },
+    {
+        "title": "I Found A Love",
+        "artist": "Lucky Peterson",
+        "album": "Triple Play",
+        "genre": "blues",
+        "uri": "spotify:track:4EiNgLQ36HaK0lDY6tdGbC",
+        "real": true,
+        "img_path": "images\\9.png",
+        "album_id": "album_9"
+    },
+    {
+        "title": "I Found A Love",
+        "artist": "Lucky Peterson",
+        "album": "Triple Play",
+        "genre": "blues",
+        "uri": "spotify:track:4EiNgLQ36HaK0lDY6tdGbC",
+        "real": false,
+        "img_path": "images\\9f.png",
+        "album_id": "album_9f"
+    },
+    {
+        "title": "Count On Me",
+        "artist": "Lucky Peterson",
+        "album": "Beyond Cool",
+        "genre": "rock",
+        "uri": "spotify:track:792heQAp6sx5I921Q5Raao",
+        "real": true,
+        "img_path": "images\\10.png",
+        "album_id": "album_10"
+    },
+    {
+        "title": "Count On Me",
+        "artist": "Lucky Peterson",
+        "album": "Beyond Cool",
+        "genre": "rock",
+        "uri": "spotify:track:792heQAp6sx5I921Q5Raao",
+        "real": false,
+        "img_path": "images\\10f.png",
+        "album_id": "album_10f"
+    },
+    {
+        "title": "Count On Me",
+        "artist": "Lucky Peterson",
+        "album": "Beyond Cool",
+        "genre": "blues",
+        "uri": "spotify:track:792heQAp6sx5I921Q5Raao",
+        "real": true,
+        "img_path": "images\\10.png",
+        "album_id": "album_10"
+    },
+    {
+        "title": "Count On Me",
+        "artist": "Lucky Peterson",
+        "album": "Beyond Cool",
+        "genre": "blues",
+        "uri": "spotify:track:792heQAp6sx5I921Q5Raao",
+        "real": false,
+        "img_path": "images\\10f.png",
+        "album_id": "album_10f"
+    },
+    {
+        "title": "Precursor",
+        "artist": "Amon Tobin",
+        "album": "Supermodified",
+        "genre": "electronic",
+        "uri": "spotify:track:1Os0g67V5fgSjh8rQuXRKO",
+        "real": true,
+        "img_path": "images\\11.png",
+        "album_id": "album_11"
+    },
+    {
+        "title": "Precursor",
+        "artist": "Amon Tobin",
+        "album": "Supermodified",
+        "genre": "electronic",
+        "uri": "spotify:track:1Os0g67V5fgSjh8rQuXRKO",
+        "real": false,
+        "img_path": "images\\11f.png",
+        "album_id": "album_11f"
+    },
+    {
+        "title": "Slide",
+        "artist": "El DeBarge",
+        "album": "Heart, Mind & Soul",
+        "genre": "funk / soul",
+        "uri": "spotify:track:6R6FlagrCC7HuFZnapXO5o",
+        "real": true,
+        "img_path": "images\\15.png",
+        "album_id": "album_15"
+    },
+    {
+        "title": "Slide",
+        "artist": "El DeBarge",
+        "album": "Heart, Mind & Soul",
+        "genre": "funk / soul",
+        "uri": "spotify:track:6R6FlagrCC7HuFZnapXO5o",
+        "real": false,
+        "img_path": "images\\15f.png",
+        "album_id": "album_15f"
+    },
+    {
+        "title": "Hey Lawdy Mama",
+        "artist": "Dakota Staton",
+        "album": "'Round Midnight",
+        "genre": "jazz",
+        "uri": "spotify:track:2huHdSyB198KZL9b1cyXMy",
+        "real": true,
+        "img_path": "images\\16.png",
+        "album_id": "album_16"
+    },
+    {
+        "title": "Hey Lawdy Mama",
+        "artist": "Dakota Staton",
+        "album": "'Round Midnight",
+        "genre": "jazz",
+        "uri": "spotify:track:2huHdSyB198KZL9b1cyXMy",
+        "real": false,
+        "img_path": "images\\16f.png",
+        "album_id": "album_16f"
+    },
+    {
+        "title": "Hey Lawdy Mama",
+        "artist": "Dakota Staton",
+        "album": "'Round Midnight",
+        "genre": "pop",
+        "uri": "spotify:track:2huHdSyB198KZL9b1cyXMy",
+        "real": true,
+        "img_path": "images\\16.png",
+        "album_id": "album_16"
+    },
+    {
+        "title": "Hey Lawdy Mama",
+        "artist": "Dakota Staton",
+        "album": "'Round Midnight",
+        "genre": "pop",
+        "uri": "spotify:track:2huHdSyB198KZL9b1cyXMy",
+        "real": false,
+        "img_path": "images\\16f.png",
+        "album_id": "album_16f"
+    },
+    {
+        "title": "Oh Baby! (Things Ain't What They Used To Be)",
+        "artist": "Ike & Tina Turner",
+        "album": "River Deep-Mountain High",
+        "genre": "funk / soul",
+        "uri": "spotify:track:0uyIdlVE5G7WnKhI84xhkD",
+        "real": true,
+        "img_path": "images\\17.png",
+        "album_id": "album_17"
+    },
+    {
+        "title": "Oh Baby! (Things Ain't What They Used To Be)",
+        "artist": "Ike & Tina Turner",
+        "album": "River Deep-Mountain High",
+        "genre": "funk / soul",
+        "uri": "spotify:track:0uyIdlVE5G7WnKhI84xhkD",
+        "real": false,
+        "img_path": "images\\17f.png",
+        "album_id": "album_17f"
+    },
+    {
+        "title": "Africa Must Be Free By 1983",
+        "artist": "Hugh Mundell",
+        "album": "Africa Must Be Free By 1983.",
+        "genre": "reggae",
+        "uri": "spotify:track:3LEre9p18tm6orlPSupVgD",
+        "real": true,
+        "img_path": "images\\18.png",
+        "album_id": "album_18"
+    },
+    {
+        "title": "Africa Must Be Free By 1983",
+        "artist": "Hugh Mundell",
+        "album": "Africa Must Be Free By 1983.",
+        "genre": "reggae",
+        "uri": "spotify:track:3LEre9p18tm6orlPSupVgD",
+        "real": false,
+        "img_path": "images\\18f.png",
+        "album_id": "album_18f"
+    },
+    {
+        "title": "All Summer Long",
+        "artist": "Antonio Forcione",
+        "album": "Tears Of Joy",
+        "genre": "folk / country",
+        "uri": "spotify:track:520nViMtX5nbGbs1vpAX3J",
+        "real": true,
+        "img_path": "images\\19.png",
+        "album_id": "album_19"
+    },
+    {
+        "title": "All Summer Long",
+        "artist": "Antonio Forcione",
+        "album": "Tears Of Joy",
+        "genre": "folk / country",
+        "uri": "spotify:track:520nViMtX5nbGbs1vpAX3J",
+        "real": false,
+        "img_path": "images\\19f.png",
+        "album_id": "album_19f"
+    },
+    {
+        "title": "All Summer Long",
+        "artist": "Antonio Forcione",
+        "album": "Tears Of Joy",
+        "genre": "jazz",
+        "uri": "spotify:track:520nViMtX5nbGbs1vpAX3J",
+        "real": true,
+        "img_path": "images\\19.png",
+        "album_id": "album_19"
+    },
+    {
+        "title": "All Summer Long",
+        "artist": "Antonio Forcione",
+        "album": "Tears Of Joy",
+        "genre": "jazz",
+        "uri": "spotify:track:520nViMtX5nbGbs1vpAX3J",
+        "real": false,
+        "img_path": "images\\19f.png",
+        "album_id": "album_19f"
+    },
+    {
+        "title": "Forest",
+        "artist": "Talmud Beach",
+        "album": "Chief",
+        "genre": "folk / country",
+        "uri": "spotify:track:69c4rpaYH1BMEPFSVzuZnz",
+        "real": true,
+        "img_path": "images\\20.png",
+        "album_id": "album_20"
+    },
+    {
+        "title": "Forest",
+        "artist": "Talmud Beach",
+        "album": "Chief",
+        "genre": "folk / country",
+        "uri": "spotify:track:69c4rpaYH1BMEPFSVzuZnz",
+        "real": false,
+        "img_path": "images\\20f.png",
+        "album_id": "album_20f"
+    },
+    {
+        "title": "Forest",
+        "artist": "Talmud Beach",
+        "album": "Chief",
+        "genre": "rock",
+        "uri": "spotify:track:69c4rpaYH1BMEPFSVzuZnz",
+        "real": true,
+        "img_path": "images\\20.png",
+        "album_id": "album_20"
+    },
+    {
+        "title": "Forest",
+        "artist": "Talmud Beach",
+        "album": "Chief",
+        "genre": "rock",
+        "uri": "spotify:track:69c4rpaYH1BMEPFSVzuZnz",
+        "real": false,
+        "img_path": "images\\20f.png",
+        "album_id": "album_20f"
+    },
+    {
+        "title": "Forest",
+        "artist": "Talmud Beach",
+        "album": "Chief",
+        "genre": "blues",
+        "uri": "spotify:track:69c4rpaYH1BMEPFSVzuZnz",
+        "real": true,
+        "img_path": "images\\20.png",
+        "album_id": "album_20"
+    },
+    {
+        "title": "Forest",
+        "artist": "Talmud Beach",
+        "album": "Chief",
+        "genre": "blues",
+        "uri": "spotify:track:69c4rpaYH1BMEPFSVzuZnz",
+        "real": false,
+        "img_path": "images\\20f.png",
+        "album_id": "album_20f"
+    },
+    {
+        "title": "When The Tingle Becomes A Chill",
+        "artist": "Loretta Lynn",
+        "album": "When The Tingle Becomes A Chill",
+        "genre": "folk / country",
+        "uri": "spotify:track:1331wY9jpohZpy5yeO2q93",
+        "real": true,
+        "img_path": "images\\21.png",
+        "album_id": "album_21"
+    },
+    {
+        "title": "When The Tingle Becomes A Chill",
+        "artist": "Loretta Lynn",
+        "album": "When The Tingle Becomes A Chill",
+        "genre": "folk / country",
+        "uri": "spotify:track:1331wY9jpohZpy5yeO2q93",
+        "real": false,
+        "img_path": "images\\21f.png",
+        "album_id": "album_21f"
+    },
+    {
+        "title": "\u017divot ide \u010falej",
+        "artist": "Medial Banana",
+        "album": " Nedotknute\u013en\u00ed",
+        "genre": "reggae",
+        "uri": "spotify:track:7csj1Q7jBd7t7FtMLmxhuI",
+        "real": true,
+        "img_path": "images\\22.png",
+        "album_id": "album_22"
+    },
+    {
+        "title": "\u017divot ide \u010falej",
+        "artist": "Medial Banana",
+        "album": " Nedotknute\u013en\u00ed",
+        "genre": "reggae",
+        "uri": "spotify:track:7csj1Q7jBd7t7FtMLmxhuI",
+        "real": false,
+        "img_path": "images\\22f.png",
+        "album_id": "album_22f"
+    },
+    {
+        "title": "\u017divot ide \u010falej",
+        "artist": "Medial Banana",
+        "album": " Nedotknute\u013en\u00ed",
+        "genre": "pop",
+        "uri": "spotify:track:7csj1Q7jBd7t7FtMLmxhuI",
+        "real": true,
+        "img_path": "images\\22.png",
+        "album_id": "album_22"
+    },
+    {
+        "title": "\u017divot ide \u010falej",
+        "artist": "Medial Banana",
+        "album": " Nedotknute\u013en\u00ed",
+        "genre": "pop",
+        "uri": "spotify:track:7csj1Q7jBd7t7FtMLmxhuI",
+        "real": false,
+        "img_path": "images\\22f.png",
+        "album_id": "album_22f"
+    },
+    {
+        "title": "S\u00e9 que bebo, s\u00e9 que fumo",
+        "artist": "Tonino Carotone",
+        "album": "Mondo Difficile",
+        "genre": "folk / country",
+        "uri": "spotify:track:5v7XUyGZiKXLqKZFwLkIDy",
+        "real": true,
+        "img_path": "images\\23.png",
+        "album_id": "album_23"
+    },
+    {
+        "title": "S\u00e9 que bebo, s\u00e9 que fumo",
+        "artist": "Tonino Carotone",
+        "album": "Mondo Difficile",
+        "genre": "folk / country",
+        "uri": "spotify:track:5v7XUyGZiKXLqKZFwLkIDy",
+        "real": false,
+        "img_path": "images\\23f.png",
+        "album_id": "album_23f"
+    },
+    {
+        "title": "S\u00e9 que bebo, s\u00e9 que fumo",
+        "artist": "Tonino Carotone",
+        "album": "Mondo Difficile",
+        "genre": "rock",
+        "uri": "spotify:track:5v7XUyGZiKXLqKZFwLkIDy",
+        "real": true,
+        "img_path": "images\\23.png",
+        "album_id": "album_23"
+    },
+    {
+        "title": "S\u00e9 que bebo, s\u00e9 que fumo",
+        "artist": "Tonino Carotone",
+        "album": "Mondo Difficile",
+        "genre": "rock",
+        "uri": "spotify:track:5v7XUyGZiKXLqKZFwLkIDy",
+        "real": false,
+        "img_path": "images\\23f.png",
+        "album_id": "album_23f"
+    },
+    {
+        "title": "S\u00e9 que bebo, s\u00e9 que fumo",
+        "artist": "Tonino Carotone",
+        "album": "Mondo Difficile",
+        "genre": "latin",
+        "uri": "spotify:track:5v7XUyGZiKXLqKZFwLkIDy",
+        "real": true,
+        "img_path": "images\\23.png",
+        "album_id": "album_23"
+    },
+    {
+        "title": "S\u00e9 que bebo, s\u00e9 que fumo",
+        "artist": "Tonino Carotone",
+        "album": "Mondo Difficile",
+        "genre": "latin",
+        "uri": "spotify:track:5v7XUyGZiKXLqKZFwLkIDy",
+        "real": false,
+        "img_path": "images\\23f.png",
+        "album_id": "album_23f"
+    },
+    {
+        "title": "\u53cd\u9006\u3059\u308b\u98a8\u666f",
+        "artist": "toe",
+        "album": "The Book About My Idle Plot On A Vague Anxiety",
+        "genre": "jazz",
+        "uri": "spotify:track:0K9C4PTZIR3zzoNpX2B1BW",
+        "real": true,
+        "img_path": "images\\24.png",
+        "album_id": "album_24"
+    },
+    {
+        "title": "\u53cd\u9006\u3059\u308b\u98a8\u666f",
+        "artist": "toe",
+        "album": "The Book About My Idle Plot On A Vague Anxiety",
+        "genre": "jazz",
+        "uri": "spotify:track:0K9C4PTZIR3zzoNpX2B1BW",
+        "real": false,
+        "img_path": "images\\24f.png",
+        "album_id": "album_24f"
+    },
+    {
+        "title": "\u53cd\u9006\u3059\u308b\u98a8\u666f",
+        "artist": "toe",
+        "album": "The Book About My Idle Plot On A Vague Anxiety",
+        "genre": "rock",
+        "uri": "spotify:track:0K9C4PTZIR3zzoNpX2B1BW",
+        "real": true,
+        "img_path": "images\\24.png",
+        "album_id": "album_24"
+    },
+    {
+        "title": "\u53cd\u9006\u3059\u308b\u98a8\u666f",
+        "artist": "toe",
+        "album": "The Book About My Idle Plot On A Vague Anxiety",
+        "genre": "rock",
+        "uri": "spotify:track:0K9C4PTZIR3zzoNpX2B1BW",
+        "real": false,
+        "img_path": "images\\24f.png",
+        "album_id": "album_24f"
+    },
+    {
+        "title": "Goin' Back To Alabama",
+        "artist": "Kenny Rogers",
+        "album": "Share Your Love",
+        "genre": "folk / country",
+        "uri": "spotify:track:2myAbwAZKSNNab49dKM8uG",
+        "real": true,
+        "img_path": "images\\25.png",
+        "album_id": "album_25"
+    },
+    {
+        "title": "Goin' Back To Alabama",
+        "artist": "Kenny Rogers",
+        "album": "Share Your Love",
+        "genre": "folk / country",
+        "uri": "spotify:track:2myAbwAZKSNNab49dKM8uG",
+        "real": false,
+        "img_path": "images\\25f.png",
+        "album_id": "album_25f"
+    },
+    {
+        "title": "You Are Her Father",
+        "artist": "Harry Gregson-Williams",
+        "album": "Man On Fire (Original Motion Picture Soundtrack)",
+        "genre": "electronic",
+        "uri": "spotify:track:4swEgt2e5AQAODbfgK5YM1",
+        "real": true,
+        "img_path": "images\\27.png",
+        "album_id": "album_27"
+    },
+    {
+        "title": "You Are Her Father",
+        "artist": "Harry Gregson-Williams",
+        "album": "Man On Fire (Original Motion Picture Soundtrack)",
+        "genre": "electronic",
+        "uri": "spotify:track:4swEgt2e5AQAODbfgK5YM1",
+        "real": false,
+        "img_path": "images\\27f.png",
+        "album_id": "album_27f"
+    },
+    {
+        "title": "You Are Her Father",
+        "artist": "Harry Gregson-Williams",
+        "album": "Man On Fire (Original Motion Picture Soundtrack)",
+        "genre": "latin",
+        "uri": "spotify:track:4swEgt2e5AQAODbfgK5YM1",
+        "real": true,
+        "img_path": "images\\27.png",
+        "album_id": "album_27"
+    },
+    {
+        "title": "You Are Her Father",
+        "artist": "Harry Gregson-Williams",
+        "album": "Man On Fire (Original Motion Picture Soundtrack)",
+        "genre": "latin",
+        "uri": "spotify:track:4swEgt2e5AQAODbfgK5YM1",
+        "real": false,
+        "img_path": "images\\27f.png",
+        "album_id": "album_27f"
+    },
+    {
+        "title": "The Days Of Pearly Spencer",
+        "artist": "Marc Almond",
+        "album": "Tenement Symphony",
+        "genre": "electronic",
+        "uri": "spotify:track:4RdK2DCPc0d1AzbELezcDg",
+        "real": true,
+        "img_path": "images\\28.png",
+        "album_id": "album_28"
+    },
+    {
+        "title": "The Days Of Pearly Spencer",
+        "artist": "Marc Almond",
+        "album": "Tenement Symphony",
+        "genre": "electronic",
+        "uri": "spotify:track:4RdK2DCPc0d1AzbELezcDg",
+        "real": false,
+        "img_path": "images\\28f.png",
+        "album_id": "album_28f"
+    },
+    {
+        "title": "The Days Of Pearly Spencer",
+        "artist": "Marc Almond",
+        "album": "Tenement Symphony",
+        "genre": "pop",
+        "uri": "spotify:track:4RdK2DCPc0d1AzbELezcDg",
+        "real": true,
+        "img_path": "images\\28.png",
+        "album_id": "album_28"
+    },
+    {
+        "title": "The Days Of Pearly Spencer",
+        "artist": "Marc Almond",
+        "album": "Tenement Symphony",
+        "genre": "pop",
+        "uri": "spotify:track:4RdK2DCPc0d1AzbELezcDg",
+        "real": false,
+        "img_path": "images\\28f.png",
+        "album_id": "album_28f"
+    },
+    {
+        "title": "Love Foolosophy - Radio Edit",
+        "artist": "Jamiroquai",
+        "album": "A Funk Odyssey",
+        "genre": "electronic",
+        "uri": "spotify:track:0upgxxew2mVAEctrz08jnf",
+        "real": true,
+        "img_path": "images\\29.png",
+        "album_id": "album_29"
+    },
+    {
+        "title": "Love Foolosophy - Radio Edit",
+        "artist": "Jamiroquai",
+        "album": "A Funk Odyssey",
+        "genre": "electronic",
+        "uri": "spotify:track:0upgxxew2mVAEctrz08jnf",
+        "real": false,
+        "img_path": "images\\29f.png",
+        "album_id": "album_29f"
+    },
+    {
+        "title": "Shuffle A Dream",
+        "artist": "Little Dragon",
+        "album": "Ritual Union",
+        "genre": "electronic",
+        "uri": "spotify:track:1ysjc3rxHEEUGBLhrF8IMn",
+        "real": true,
+        "img_path": "images\\30.png",
+        "album_id": "album_30"
+    },
+    {
+        "title": "Shuffle A Dream",
+        "artist": "Little Dragon",
+        "album": "Ritual Union",
+        "genre": "electronic",
+        "uri": "spotify:track:1ysjc3rxHEEUGBLhrF8IMn",
+        "real": false,
+        "img_path": "images\\30f.png",
+        "album_id": "album_30f"
+    },
+    {
+        "title": "Shuffle A Dream",
+        "artist": "Little Dragon",
+        "album": "Ritual Union",
+        "genre": "pop",
+        "uri": "spotify:track:1ysjc3rxHEEUGBLhrF8IMn",
+        "real": true,
+        "img_path": "images\\30.png",
+        "album_id": "album_30"
+    },
+    {
+        "title": "Shuffle A Dream",
+        "artist": "Little Dragon",
+        "album": "Ritual Union",
+        "genre": "pop",
+        "uri": "spotify:track:1ysjc3rxHEEUGBLhrF8IMn",
+        "real": false,
+        "img_path": "images\\30f.png",
+        "album_id": "album_30f"
+    },
+    {
+        "title": "Oolite Grove",
+        "artist": "Ozric Tentacles",
+        "album": "Curious Corn",
+        "genre": "electronic",
+        "uri": "spotify:track:5wD6XhgEGfLxdpf6YEX7pi",
+        "real": true,
+        "img_path": "images\\31.png",
+        "album_id": "album_31"
+    },
+    {
+        "title": "Oolite Grove",
+        "artist": "Ozric Tentacles",
+        "album": "Curious Corn",
+        "genre": "electronic",
+        "uri": "spotify:track:5wD6XhgEGfLxdpf6YEX7pi",
+        "real": false,
+        "img_path": "images\\31f.png",
+        "album_id": "album_31f"
+    },
+    {
+        "title": "Oolite Grove",
+        "artist": "Ozric Tentacles",
+        "album": "Curious Corn",
+        "genre": "rock",
+        "uri": "spotify:track:5wD6XhgEGfLxdpf6YEX7pi",
+        "real": true,
+        "img_path": "images\\31.png",
+        "album_id": "album_31"
+    },
+    {
+        "title": "Oolite Grove",
+        "artist": "Ozric Tentacles",
+        "album": "Curious Corn",
+        "genre": "rock",
+        "uri": "spotify:track:5wD6XhgEGfLxdpf6YEX7pi",
+        "real": false,
+        "img_path": "images\\31f.png",
+        "album_id": "album_31f"
+    },
+    {
+        "title": "Cara e Cora\u00e7\u00e3o",
+        "artist": "Moraes Moreira",
+        "album": "Cara E Cora\u00e7\u00e3o",
+        "genre": "latin",
+        "uri": "spotify:track:4lK2lgJtzG185flRoZzGJy",
+        "real": true,
+        "img_path": "images\\32.png",
+        "album_id": "album_32"
+    },
+    {
+        "title": "Cara e Cora\u00e7\u00e3o",
+        "artist": "Moraes Moreira",
+        "album": "Cara E Cora\u00e7\u00e3o",
+        "genre": "latin",
+        "uri": "spotify:track:4lK2lgJtzG185flRoZzGJy",
+        "real": false,
+        "img_path": "images\\32f.png",
+        "album_id": "album_32f"
+    },
+    {
+        "title": "Queimando Tudo",
+        "artist": "Planet Hemp",
+        "album": "Os C\u00e3es Ladram Mas A Caravana N\u00e3o P\u00e1ra",
+        "genre": "hip hop",
+        "uri": "spotify:track:26qKlzyPOmil2epcFPD246",
+        "real": true,
+        "img_path": "images\\33.png",
+        "album_id": "album_33"
+    },
+    {
+        "title": "Queimando Tudo",
+        "artist": "Planet Hemp",
+        "album": "Os C\u00e3es Ladram Mas A Caravana N\u00e3o P\u00e1ra",
+        "genre": "hip hop",
+        "uri": "spotify:track:26qKlzyPOmil2epcFPD246",
+        "real": false,
+        "img_path": "images\\33f.png",
+        "album_id": "album_33f"
+    },
+    {
+        "title": "Queimando Tudo",
+        "artist": "Planet Hemp",
+        "album": "Os C\u00e3es Ladram Mas A Caravana N\u00e3o P\u00e1ra",
+        "genre": "rock",
+        "uri": "spotify:track:26qKlzyPOmil2epcFPD246",
+        "real": true,
+        "img_path": "images\\33.png",
+        "album_id": "album_33"
+    },
+    {
+        "title": "Queimando Tudo",
+        "artist": "Planet Hemp",
+        "album": "Os C\u00e3es Ladram Mas A Caravana N\u00e3o P\u00e1ra",
+        "genre": "rock",
+        "uri": "spotify:track:26qKlzyPOmil2epcFPD246",
+        "real": false,
+        "img_path": "images\\33f.png",
+        "album_id": "album_33f"
+    },
+    {
+        "title": "Queimando Tudo",
+        "artist": "Planet Hemp",
+        "album": "Os C\u00e3es Ladram Mas A Caravana N\u00e3o P\u00e1ra",
+        "genre": "latin",
+        "uri": "spotify:track:26qKlzyPOmil2epcFPD246",
+        "real": true,
+        "img_path": "images\\33.png",
+        "album_id": "album_33"
+    },
+    {
+        "title": "Queimando Tudo",
+        "artist": "Planet Hemp",
+        "album": "Os C\u00e3es Ladram Mas A Caravana N\u00e3o P\u00e1ra",
+        "genre": "latin",
+        "uri": "spotify:track:26qKlzyPOmil2epcFPD246",
+        "real": false,
+        "img_path": "images\\33f.png",
+        "album_id": "album_33f"
+    },
+    {
+        "title": "2857",
+        "artist": "Yazz Ahmed",
+        "album": "Polyhymnia",
+        "genre": "jazz",
+        "uri": "spotify:track:739LKGNQp23FGhmo4wj6Qf",
+        "real": true,
+        "img_path": "images\\34.png",
+        "album_id": "album_34"
+    },
+    {
+        "title": "2857",
+        "artist": "Yazz Ahmed",
+        "album": "Polyhymnia",
+        "genre": "jazz",
+        "uri": "spotify:track:739LKGNQp23FGhmo4wj6Qf",
+        "real": false,
+        "img_path": "images\\34f.png",
+        "album_id": "album_34f"
+    },
+    {
+        "title": "Soldier Boy",
+        "artist": "Elvis Presley",
+        "album": "Elvis Is Back!",
+        "genre": "rock",
+        "uri": "spotify:track:3CADzRN1OykvppXzYJRRHq",
+        "real": true,
+        "img_path": "images\\35.png",
+        "album_id": "album_35"
+    },
+    {
+        "title": "Soldier Boy",
+        "artist": "Elvis Presley",
+        "album": "Elvis Is Back!",
+        "genre": "rock",
+        "uri": "spotify:track:3CADzRN1OykvppXzYJRRHq",
+        "real": false,
+        "img_path": "images\\35f.png",
+        "album_id": "album_35f"
+    },
+    {
+        "title": "Soldier Boy",
+        "artist": "Elvis Presley",
+        "album": "Elvis Is Back!",
+        "genre": "blues",
+        "uri": "spotify:track:3CADzRN1OykvppXzYJRRHq",
+        "real": true,
+        "img_path": "images\\35.png",
+        "album_id": "album_35"
+    },
+    {
+        "title": "Soldier Boy",
+        "artist": "Elvis Presley",
+        "album": "Elvis Is Back!",
+        "genre": "blues",
+        "uri": "spotify:track:3CADzRN1OykvppXzYJRRHq",
+        "real": false,
+        "img_path": "images\\35f.png",
+        "album_id": "album_35f"
+    },
+    {
+        "title": "Soldier Boy",
+        "artist": "Elvis Presley",
+        "album": "Elvis Is Back!",
+        "genre": "pop",
+        "uri": "spotify:track:3CADzRN1OykvppXzYJRRHq",
+        "real": true,
+        "img_path": "images\\35.png",
+        "album_id": "album_35"
+    },
+    {
+        "title": "Soldier Boy",
+        "artist": "Elvis Presley",
+        "album": "Elvis Is Back!",
+        "genre": "pop",
+        "uri": "spotify:track:3CADzRN1OykvppXzYJRRHq",
+        "real": false,
+        "img_path": "images\\35f.png",
+        "album_id": "album_35f"
+    },
+    {
+        "title": "Fix You - Live",
+        "artist": "Coldplay",
+        "album": "Live 2012",
+        "genre": "rock",
+        "uri": "spotify:track:6L0uCWhXyBNncoDgfEvK1R",
+        "real": true,
+        "img_path": "images\\36.png",
+        "album_id": "album_36"
+    },
+    {
+        "title": "Fix You - Live",
+        "artist": "Coldplay",
+        "album": "Live 2012",
+        "genre": "rock",
+        "uri": "spotify:track:6L0uCWhXyBNncoDgfEvK1R",
+        "real": false,
+        "img_path": "images\\36f.png",
+        "album_id": "album_36f"
+    },
+    {
+        "title": "Fix You - Live",
+        "artist": "Coldplay",
+        "album": "Live 2012",
+        "genre": "pop",
+        "uri": "spotify:track:6L0uCWhXyBNncoDgfEvK1R",
+        "real": true,
+        "img_path": "images\\36.png",
+        "album_id": "album_36"
+    },
+    {
+        "title": "Fix You - Live",
+        "artist": "Coldplay",
+        "album": "Live 2012",
+        "genre": "pop",
+        "uri": "spotify:track:6L0uCWhXyBNncoDgfEvK1R",
+        "real": false,
+        "img_path": "images\\36f.png",
+        "album_id": "album_36f"
+    },
+    {
+        "title": "The Boys Are Back In Town",
+        "artist": "The Avett Brothers",
+        "album": "Live Vol. Four",
+        "genre": "folk / country",
+        "uri": "spotify:track:6FcSZG0FwqgfsEBKZJdanH",
+        "real": true,
+        "img_path": "images\\37.png",
+        "album_id": "album_37"
+    },
+    {
+        "title": "The Boys Are Back In Town",
+        "artist": "The Avett Brothers",
+        "album": "Live Vol. Four",
+        "genre": "folk / country",
+        "uri": "spotify:track:6FcSZG0FwqgfsEBKZJdanH",
+        "real": false,
+        "img_path": "images\\37f.png",
+        "album_id": "album_37f"
+    },
+    {
+        "title": "The Boys Are Back In Town",
+        "artist": "The Avett Brothers",
+        "album": "Live Vol. Four",
+        "genre": "rock",
+        "uri": "spotify:track:6FcSZG0FwqgfsEBKZJdanH",
+        "real": true,
+        "img_path": "images\\37.png",
+        "album_id": "album_37"
+    },
+    {
+        "title": "The Boys Are Back In Town",
+        "artist": "The Avett Brothers",
+        "album": "Live Vol. Four",
+        "genre": "rock",
+        "uri": "spotify:track:6FcSZG0FwqgfsEBKZJdanH",
+        "real": false,
+        "img_path": "images\\37f.png",
+        "album_id": "album_37f"
+    },
+    {
+        "title": "Into Blue",
+        "artist": "Frankie Rose",
+        "album": "Herein Wild",
+        "genre": "rock",
+        "uri": "spotify:track:2CaHm9FVOKOSbxL2QUWDuJ",
+        "real": true,
+        "img_path": "images\\38.png",
+        "album_id": "album_38"
+    },
+    {
+        "title": "Into Blue",
+        "artist": "Frankie Rose",
+        "album": "Herein Wild",
+        "genre": "rock",
+        "uri": "spotify:track:2CaHm9FVOKOSbxL2QUWDuJ",
+        "real": false,
+        "img_path": "images\\38f.png",
+        "album_id": "album_38f"
+    },
+    {
+        "title": "Into Blue",
+        "artist": "Frankie Rose",
+        "album": "Herein Wild",
+        "genre": "pop",
+        "uri": "spotify:track:2CaHm9FVOKOSbxL2QUWDuJ",
+        "real": true,
+        "img_path": "images\\38.png",
+        "album_id": "album_38"
+    },
+    {
+        "title": "Into Blue",
+        "artist": "Frankie Rose",
+        "album": "Herein Wild",
+        "genre": "pop",
+        "uri": "spotify:track:2CaHm9FVOKOSbxL2QUWDuJ",
+        "real": false,
+        "img_path": "images\\38f.png",
+        "album_id": "album_38f"
+    },
+    {
+        "title": "Come Home",
+        "artist": "New York Voices",
+        "album": "New York Voices",
+        "genre": "jazz",
+        "uri": "spotify:track:2cBOY7Z8WHTlS20tEswFVu",
+        "real": true,
+        "img_path": "images\\40.png",
+        "album_id": "album_40"
+    },
+    {
+        "title": "Come Home",
+        "artist": "New York Voices",
+        "album": "New York Voices",
+        "genre": "jazz",
+        "uri": "spotify:track:2cBOY7Z8WHTlS20tEswFVu",
+        "real": false,
+        "img_path": "images\\40f.png",
+        "album_id": "album_40f"
+    },
+    {
+        "title": "Cueca Beat",
+        "artist": "Amerindios",
+        "album": "\"Tu Sue\u00f1o Es Mi Sue\u00f1o, Tu Grito Es Mi Canto\"",
+        "genre": "folk / country",
+        "uri": "spotify:track:0IF80TYzNCXyk8Pvu8Iu0a",
+        "real": true,
+        "img_path": "images\\41.png",
+        "album_id": "album_41"
+    },
+    {
+        "title": "Cueca Beat",
+        "artist": "Amerindios",
+        "album": "\"Tu Sue\u00f1o Es Mi Sue\u00f1o, Tu Grito Es Mi Canto\"",
+        "genre": "folk / country",
+        "uri": "spotify:track:0IF80TYzNCXyk8Pvu8Iu0a",
+        "real": false,
+        "img_path": "images\\41f.png",
+        "album_id": "album_41f"
+    },
+    {
+        "title": "Cueca Beat",
+        "artist": "Amerindios",
+        "album": "\"Tu Sue\u00f1o Es Mi Sue\u00f1o, Tu Grito Es Mi Canto\"",
+        "genre": "latin",
+        "uri": "spotify:track:0IF80TYzNCXyk8Pvu8Iu0a",
+        "real": true,
+        "img_path": "images\\41.png",
+        "album_id": "album_41"
+    },
+    {
+        "title": "Cueca Beat",
+        "artist": "Amerindios",
+        "album": "\"Tu Sue\u00f1o Es Mi Sue\u00f1o, Tu Grito Es Mi Canto\"",
+        "genre": "latin",
+        "uri": "spotify:track:0IF80TYzNCXyk8Pvu8Iu0a",
+        "real": false,
+        "img_path": "images\\41f.png",
+        "album_id": "album_41f"
+    },
+    {
+        "title": "Fresh Tube",
+        "artist": "Vida Blue",
+        "album": "Vida Blue",
+        "genre": "jazz",
+        "uri": "spotify:track:05YYyx9sX1D4h1KlAA1Vfo",
+        "real": true,
+        "img_path": "images\\42.png",
+        "album_id": "album_42"
+    },
+    {
+        "title": "Fresh Tube",
+        "artist": "Vida Blue",
+        "album": "Vida Blue",
+        "genre": "jazz",
+        "uri": "spotify:track:05YYyx9sX1D4h1KlAA1Vfo",
+        "real": false,
+        "img_path": "images\\42f.png",
+        "album_id": "album_42f"
+    },
+    {
+        "title": "Fresh Tube",
+        "artist": "Vida Blue",
+        "album": "Vida Blue",
+        "genre": "rock",
+        "uri": "spotify:track:05YYyx9sX1D4h1KlAA1Vfo",
+        "real": true,
+        "img_path": "images\\42.png",
+        "album_id": "album_42"
+    },
+    {
+        "title": "Fresh Tube",
+        "artist": "Vida Blue",
+        "album": "Vida Blue",
+        "genre": "rock",
+        "uri": "spotify:track:05YYyx9sX1D4h1KlAA1Vfo",
+        "real": false,
+        "img_path": "images\\42f.png",
+        "album_id": "album_42f"
+    },
+    {
+        "title": "Fresh Tube",
+        "artist": "Vida Blue",
+        "album": "Vida Blue",
+        "genre": "funk / soul",
+        "uri": "spotify:track:05YYyx9sX1D4h1KlAA1Vfo",
+        "real": true,
+        "img_path": "images\\42.png",
+        "album_id": "album_42"
+    },
+    {
+        "title": "Fresh Tube",
+        "artist": "Vida Blue",
+        "album": "Vida Blue",
+        "genre": "funk / soul",
+        "uri": "spotify:track:05YYyx9sX1D4h1KlAA1Vfo",
+        "real": false,
+        "img_path": "images\\42f.png",
+        "album_id": "album_42f"
+    },
+    {
+        "title": "Reaching Xanadu",
+        "artist": "Perturbator",
+        "album": "Lustful Sacraments",
+        "genre": "electronic",
+        "uri": "spotify:track:2QMOVnRQhSbYZgfn9edo6K",
+        "real": true,
+        "img_path": "images\\43.png",
+        "album_id": "album_43"
+    },
+    {
+        "title": "Reaching Xanadu",
+        "artist": "Perturbator",
+        "album": "Lustful Sacraments",
+        "genre": "electronic",
+        "uri": "spotify:track:2QMOVnRQhSbYZgfn9edo6K",
+        "real": false,
+        "img_path": "images\\43f.png",
+        "album_id": "album_43f"
+    },
+    {
+        "title": "Pour",
+        "artist": "Rebecca Foon",
+        "album": "Waxing Moon",
+        "genre": "folk / country",
+        "uri": "spotify:track:2Uj1BnZngIxIYpexbQAc5S",
+        "real": true,
+        "img_path": "images\\44.png",
+        "album_id": "album_44"
+    },
+    {
+        "title": "Pour",
+        "artist": "Rebecca Foon",
+        "album": "Waxing Moon",
+        "genre": "folk / country",
+        "uri": "spotify:track:2Uj1BnZngIxIYpexbQAc5S",
+        "real": false,
+        "img_path": "images\\44f.png",
+        "album_id": "album_44f"
+    },
+    {
+        "title": "Pour",
+        "artist": "Rebecca Foon",
+        "album": "Waxing Moon",
+        "genre": "rock",
+        "uri": "spotify:track:2Uj1BnZngIxIYpexbQAc5S",
+        "real": true,
+        "img_path": "images\\44.png",
+        "album_id": "album_44"
+    },
+    {
+        "title": "Pour",
+        "artist": "Rebecca Foon",
+        "album": "Waxing Moon",
+        "genre": "rock",
+        "uri": "spotify:track:2Uj1BnZngIxIYpexbQAc5S",
+        "real": false,
+        "img_path": "images\\44f.png",
+        "album_id": "album_44f"
+    },
+    {
+        "title": "Pour",
+        "artist": "Rebecca Foon",
+        "album": "Waxing Moon",
+        "genre": "classical",
+        "uri": "spotify:track:2Uj1BnZngIxIYpexbQAc5S",
+        "real": true,
+        "img_path": "images\\44.png",
+        "album_id": "album_44"
+    },
+    {
+        "title": "Pour",
+        "artist": "Rebecca Foon",
+        "album": "Waxing Moon",
+        "genre": "classical",
+        "uri": "spotify:track:2Uj1BnZngIxIYpexbQAc5S",
+        "real": false,
+        "img_path": "images\\44f.png",
+        "album_id": "album_44f"
+    },
+    {
+        "title": "Get Out Of Town",
+        "artist": "Holly Cole Trio",
+        "album": "Don't Smoke In Bed",
+        "genre": "jazz",
+        "uri": "spotify:track:4FXSyVwa0dXzCSBtsqvMjL",
+        "real": true,
+        "img_path": "images\\46.png",
+        "album_id": "album_46"
+    },
+    {
+        "title": "Get Out Of Town",
+        "artist": "Holly Cole Trio",
+        "album": "Don't Smoke In Bed",
+        "genre": "jazz",
+        "uri": "spotify:track:4FXSyVwa0dXzCSBtsqvMjL",
+        "real": false,
+        "img_path": "images\\46f.png",
+        "album_id": "album_46f"
+    },
+    {
+        "title": "Breathe In",
+        "artist": "Factory Floor",
+        "album": "Factory Floor",
+        "genre": "electronic",
+        "uri": "spotify:track:33nZwReJX3pfI60v9UuDJH",
+        "real": true,
+        "img_path": "images\\47.png",
+        "album_id": "album_47"
+    },
+    {
+        "title": "Breathe In",
+        "artist": "Factory Floor",
+        "album": "Factory Floor",
+        "genre": "electronic",
+        "uri": "spotify:track:33nZwReJX3pfI60v9UuDJH",
+        "real": false,
+        "img_path": "images\\47f.png",
+        "album_id": "album_47f"
+    },
+    {
+        "title": "Breathe In",
+        "artist": "Factory Floor",
+        "album": "Factory Floor",
+        "genre": "rock",
+        "uri": "spotify:track:33nZwReJX3pfI60v9UuDJH",
+        "real": true,
+        "img_path": "images\\47.png",
+        "album_id": "album_47"
+    },
+    {
+        "title": "Breathe In",
+        "artist": "Factory Floor",
+        "album": "Factory Floor",
+        "genre": "rock",
+        "uri": "spotify:track:33nZwReJX3pfI60v9UuDJH",
+        "real": false,
+        "img_path": "images\\47f.png",
+        "album_id": "album_47f"
+    },
+    {
+        "title": "Snow",
+        "artist": "Skalpel",
+        "album": "Transit",
+        "genre": "electronic",
+        "uri": "spotify:track:1nqWzXuPLjJWoLPAXtIu2Q",
+        "real": true,
+        "img_path": "images\\48.png",
+        "album_id": "album_48"
+    },
+    {
+        "title": "Snow",
+        "artist": "Skalpel",
+        "album": "Transit",
+        "genre": "electronic",
+        "uri": "spotify:track:1nqWzXuPLjJWoLPAXtIu2Q",
+        "real": false,
+        "img_path": "images\\48f.png",
+        "album_id": "album_48f"
+    },
+    {
+        "title": "Snow",
+        "artist": "Skalpel",
+        "album": "Transit",
+        "genre": "hip hop",
+        "uri": "spotify:track:1nqWzXuPLjJWoLPAXtIu2Q",
+        "real": true,
+        "img_path": "images\\48.png",
+        "album_id": "album_48"
+    },
+    {
+        "title": "Snow",
+        "artist": "Skalpel",
+        "album": "Transit",
+        "genre": "hip hop",
+        "uri": "spotify:track:1nqWzXuPLjJWoLPAXtIu2Q",
+        "real": false,
+        "img_path": "images\\48f.png",
+        "album_id": "album_48f"
+    },
+    {
+        "title": "Bad Wisdom",
+        "artist": "Suzanne Vega",
+        "album": "99.9F\u00b0",
+        "genre": "electronic",
+        "uri": "spotify:track:4ymxk14B7bYgKGaQeEQuRZ",
+        "real": true,
+        "img_path": "images\\49.png",
+        "album_id": "album_49"
+    },
+    {
+        "title": "Bad Wisdom",
+        "artist": "Suzanne Vega",
+        "album": "99.9F\u00b0",
+        "genre": "electronic",
+        "uri": "spotify:track:4ymxk14B7bYgKGaQeEQuRZ",
+        "real": false,
+        "img_path": "images\\49f.png",
+        "album_id": "album_49f"
+    },
+    {
+        "title": "Bad Wisdom",
+        "artist": "Suzanne Vega",
+        "album": "99.9F\u00b0",
+        "genre": "rock",
+        "uri": "spotify:track:4ymxk14B7bYgKGaQeEQuRZ",
+        "real": true,
+        "img_path": "images\\49.png",
+        "album_id": "album_49"
+    },
+    {
+        "title": "Bad Wisdom",
+        "artist": "Suzanne Vega",
+        "album": "99.9F\u00b0",
+        "genre": "rock",
+        "uri": "spotify:track:4ymxk14B7bYgKGaQeEQuRZ",
+        "real": false,
+        "img_path": "images\\49f.png",
+        "album_id": "album_49f"
+    },
+    {
+        "title": "En el R\u00edo",
+        "artist": "Vetusta Morla",
+        "album": "Mapas",
+        "genre": "rock",
+        "uri": "spotify:track:6RBkJfOoKhGTMyUP6YXcjS",
+        "real": true,
+        "img_path": "images\\50.png",
+        "album_id": "album_50"
+    },
+    {
+        "title": "En el R\u00edo",
+        "artist": "Vetusta Morla",
+        "album": "Mapas",
+        "genre": "rock",
+        "uri": "spotify:track:6RBkJfOoKhGTMyUP6YXcjS",
+        "real": false,
+        "img_path": "images\\50f.png",
+        "album_id": "album_50f"
+    },
+    {
+        "title": "En el R\u00edo",
+        "artist": "Vetusta Morla",
+        "album": "Mapas",
+        "genre": "pop",
+        "uri": "spotify:track:6RBkJfOoKhGTMyUP6YXcjS",
+        "real": true,
+        "img_path": "images\\50.png",
+        "album_id": "album_50"
+    },
+    {
+        "title": "En el R\u00edo",
+        "artist": "Vetusta Morla",
+        "album": "Mapas",
+        "genre": "pop",
+        "uri": "spotify:track:6RBkJfOoKhGTMyUP6YXcjS",
+        "real": false,
+        "img_path": "images\\50f.png",
+        "album_id": "album_50f"
+    },
+    {
+        "title": "Melody 2",
+        "artist": "Tera Melos",
+        "album": "Untitled",
+        "genre": "electronic",
+        "uri": "spotify:track:6YbIdfXph4fgDBQkEpAg8X",
+        "real": true,
+        "img_path": "images\\51.png",
+        "album_id": "album_51"
+    },
+    {
+        "title": "Melody 2",
+        "artist": "Tera Melos",
+        "album": "Untitled",
+        "genre": "electronic",
+        "uri": "spotify:track:6YbIdfXph4fgDBQkEpAg8X",
+        "real": false,
+        "img_path": "images\\51f.png",
+        "album_id": "album_51f"
+    },
+    {
+        "title": "Melody 2",
+        "artist": "Tera Melos",
+        "album": "Untitled",
+        "genre": "jazz",
+        "uri": "spotify:track:6YbIdfXph4fgDBQkEpAg8X",
+        "real": true,
+        "img_path": "images\\51.png",
+        "album_id": "album_51"
+    },
+    {
+        "title": "Melody 2",
+        "artist": "Tera Melos",
+        "album": "Untitled",
+        "genre": "jazz",
+        "uri": "spotify:track:6YbIdfXph4fgDBQkEpAg8X",
+        "real": false,
+        "img_path": "images\\51f.png",
+        "album_id": "album_51f"
+    },
+    {
+        "title": "Melody 2",
+        "artist": "Tera Melos",
+        "album": "Untitled",
+        "genre": "rock",
+        "uri": "spotify:track:6YbIdfXph4fgDBQkEpAg8X",
+        "real": true,
+        "img_path": "images\\51.png",
+        "album_id": "album_51"
+    },
+    {
+        "title": "Melody 2",
+        "artist": "Tera Melos",
+        "album": "Untitled",
+        "genre": "rock",
+        "uri": "spotify:track:6YbIdfXph4fgDBQkEpAg8X",
+        "real": false,
+        "img_path": "images\\51f.png",
+        "album_id": "album_51f"
+    },
+    {
+        "title": "Scorpion Hill",
+        "artist": "PUP",
+        "album": "Morbid Stuff",
+        "genre": "rock",
+        "uri": "spotify:track:4LEjFyLLXycqMeHYwTP6in",
+        "real": true,
+        "img_path": "images\\52.png",
+        "album_id": "album_52"
+    },
+    {
+        "title": "Scorpion Hill",
+        "artist": "PUP",
+        "album": "Morbid Stuff",
+        "genre": "rock",
+        "uri": "spotify:track:4LEjFyLLXycqMeHYwTP6in",
+        "real": false,
+        "img_path": "images\\52f.png",
+        "album_id": "album_52f"
+    },
+    {
+        "title": "Vera Cruz",
+        "artist": "Zimbo Trio",
+        "album": "Decis\u00e3o",
+        "genre": "jazz",
+        "uri": "spotify:track:2yNgv6lqjG8zboP2CrDiII",
+        "real": true,
+        "img_path": "images\\53.png",
+        "album_id": "album_53"
+    },
+    {
+        "title": "Vera Cruz",
+        "artist": "Zimbo Trio",
+        "album": "Decis\u00e3o",
+        "genre": "jazz",
+        "uri": "spotify:track:2yNgv6lqjG8zboP2CrDiII",
+        "real": false,
+        "img_path": "images\\53f.png",
+        "album_id": "album_53f"
+    },
+    {
+        "title": "Vera Cruz",
+        "artist": "Zimbo Trio",
+        "album": "Decis\u00e3o",
+        "genre": "latin",
+        "uri": "spotify:track:2yNgv6lqjG8zboP2CrDiII",
+        "real": true,
+        "img_path": "images\\53.png",
+        "album_id": "album_53"
+    },
+    {
+        "title": "Vera Cruz",
+        "artist": "Zimbo Trio",
+        "album": "Decis\u00e3o",
+        "genre": "latin",
+        "uri": "spotify:track:2yNgv6lqjG8zboP2CrDiII",
+        "real": false,
+        "img_path": "images\\53f.png",
+        "album_id": "album_53f"
+    },
+    {
+        "title": "Come to My Bedside, My Darlin'",
+        "artist": "Eric Andersen",
+        "album": "Blue River",
+        "genre": "folk / country",
+        "uri": "spotify:track:1guAi671k54iLS2fHT9LiA",
+        "real": true,
+        "img_path": "images\\54.png",
+        "album_id": "album_54"
+    },
+    {
+        "title": "Come to My Bedside, My Darlin'",
+        "artist": "Eric Andersen",
+        "album": "Blue River",
+        "genre": "folk / country",
+        "uri": "spotify:track:1guAi671k54iLS2fHT9LiA",
+        "real": false,
+        "img_path": "images\\54f.png",
+        "album_id": "album_54f"
+    },
+    {
+        "title": "Come to My Bedside, My Darlin'",
+        "artist": "Eric Andersen",
+        "album": "Blue River",
+        "genre": "rock",
+        "uri": "spotify:track:1guAi671k54iLS2fHT9LiA",
+        "real": true,
+        "img_path": "images\\54.png",
+        "album_id": "album_54"
+    },
+    {
+        "title": "Come to My Bedside, My Darlin'",
+        "artist": "Eric Andersen",
+        "album": "Blue River",
+        "genre": "rock",
+        "uri": "spotify:track:1guAi671k54iLS2fHT9LiA",
+        "real": false,
+        "img_path": "images\\54f.png",
+        "album_id": "album_54f"
+    },
+    {
+        "title": "Solar Power",
+        "artist": "Lorde",
+        "album": "Solar Power",
+        "genre": "pop",
+        "uri": "spotify:track:5VmpLtRycwbA54XsTffKq4",
+        "real": true,
+        "img_path": "images\\55.png",
+        "album_id": "album_55"
+    },
+    {
+        "title": "Solar Power",
+        "artist": "Lorde",
+        "album": "Solar Power",
+        "genre": "pop",
+        "uri": "spotify:track:5VmpLtRycwbA54XsTffKq4",
+        "real": false,
+        "img_path": "images\\55f.png",
+        "album_id": "album_55f"
+    },
+    {
+        "title": "You're Getting to Be a Habit with Me",
+        "artist": "C\u00e9cile McLorin Salvant",
+        "album": "Dreams And Daggers",
+        "genre": "jazz",
+        "uri": "spotify:track:2n5kSuTx0WzLJ3rLuKrdId",
+        "real": true,
+        "img_path": "images\\58.png",
+        "album_id": "album_58"
+    },
+    {
+        "title": "You're Getting to Be a Habit with Me",
+        "artist": "C\u00e9cile McLorin Salvant",
+        "album": "Dreams And Daggers",
+        "genre": "jazz",
+        "uri": "spotify:track:2n5kSuTx0WzLJ3rLuKrdId",
+        "real": false,
+        "img_path": "images\\58f.png",
+        "album_id": "album_58f"
     }
 ]

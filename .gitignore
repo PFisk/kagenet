@@ -33,3 +33,9 @@ yarn-error.log*
 
 # vercel
 .vercel
+
+# keys
+.env.local
+
+# Filling database
+/data/fillDatabase.js

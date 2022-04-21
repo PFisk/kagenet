@@ -45,16 +45,14 @@ export const Album = () => {
 
   async function setNextAlbum() {
     setAlbum(imageData[albumcount % imageData.length]);
-    setProgress(Math.round(albumcount / imageData.length * 100))
+    setProgress(Math.round(albumcount / threshold * 100))
     
-/*     if (albumcount >= threshold) {
+    if (albumcount >= threshold) {
       setShowThreshold(true);
-    } */
+    }
     
     if ((albumcount / imageData.length) * 100 >= 100) {
-      setShowThreshold(true); //Remove, add above
-      //Disabled for debugging
-      //setShowComplete(true);
+      setShowComplete(true);
     }
 
     albumcount++;
@@ -84,34 +82,39 @@ export const Album = () => {
   return (
     <div>
       {!album && (
+        <div>
         <div className={styles.survey_info}>
+        <h1 className={styles.title}>
+                KageNet Album Cover Survey ✍
+              </h1>
           <p>
             This survey is part of a master thesis project in which we are researching potential connections between music and its corresponding album cover art.
             One part of the project is focused on understanding associations using machine learning, while the other is focused on human evaluation.
             <br />
             <br />
-            The album covers shown are purposefully in low resolution, as this is the same resolution as the machine learning models are training on.
+            You will be shown album covers that are purposefully in low resolution.
             <br />
             <br />
-            The survey is simple - answer what you think are the correct genre for the album covers shown.
+            The survey is simple - answer what you think is the correct genre for the album cover shown.
             <br />
             <br />
             Thanks a lot for your time!
           </p>
           <button onClick={setNextAlbum} className={styles.button_alt}>Lets go!</button>
         </div>
+        </div>
       )}
       {!responseThreshold && <Modal title="Thank you!" onClose={() => surveyThreshold()} show={showThreshold} hasButton={true}
-        body="Your contribution is much appriciated. You can stop now, but there are more covers if you wish to continue. Any additional response helps 🙏"
+        body="Your contribution is much appreciated. The survey is now done, but you can keep going if you want! Any additional responses help 🙏"
       />}
       <Modal title="Survey complete!" onClose={setShowComplete} show={showComplete} hasButton={false}
-        body="You completed the entire survey! Thanks a lot ❤"
+        body="You completed the entire survey! Thanks a lot &#10084;&#65039;"
       />
       {album && (
         <div>
-          <p className={styles.description}>
-            Can you guess the correct genre?
-          </p>
+          <h1 className={styles.title}>
+            Which genre?
+          </h1>
           <div className={styles.image_wrapper}>
             <div className={styles.image_container}>
               <img
@@ -162,9 +165,6 @@ export const Album = () => {
         <div>
           {!responseThreshold && <ProgressBar bgColor={"#109933"} completed={progress}/>}
         </div>
-          <button onClick={fillDatabase()} className={styles.button} type="button">
-            Add to DB
-          </button>
       </div>
       }
     </div>

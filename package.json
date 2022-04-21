@@ -2,7 +2,6 @@
   "name": "kagenet",
   "version": "0.1.0",
   "private": true,
-  "type": "module",
   "scripts": {
     "add": "node ./data/fillDatabase.js",
     "dev": "next dev",
