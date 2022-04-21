@@ -259,6 +259,7 @@
   }
   .main {
     padding: 1rem 0;
+    justify-content: flex-start;
   }
   .button {
     width: 9em;
