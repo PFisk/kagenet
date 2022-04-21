@@ -85,7 +85,7 @@ export const Album = () => {
         <div>
         <div className={styles.survey_info}>
         <h1 className={styles.title}>
-                KageNet Album Cover Survey ✍
+                KageNet Album Cover Survey &#x270d;
               </h1>
           <p>
             This survey is part of a master thesis project in which we are researching potential connections between music and its corresponding album cover art.

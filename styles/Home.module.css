@@ -257,6 +257,11 @@
   .description {
     display: none;
   }
+
+  .image_wrapper {
+    padding: 0 20px;
+  }
+
   .main {
     padding: 1rem 0;
     justify-content: flex-start;
