@@ -130,8 +130,8 @@ export default function Stats() {
                                 <h2>
                                     Artist agreement
                                 </h2>
-                                <p>Real albums with {'>'} 50% agreement = {guessCorrectness.realOverOutput} </p>
-                                <p>Fake albums with {'>'} 50% agreement = {guessCorrectness.fakeOverOutput} </p>
+                                <p>Real albums with {'>'} {thresholdPct}% agreement = {guessCorrectness.realOverOutput} </p>
+                                <p>Fake albums with {'>'} {thresholdPct}% agreement = {guessCorrectness.fakeOverOutput} </p>
                             </div>
                         </div>
                     </main>
