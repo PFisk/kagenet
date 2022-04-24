@@ -122,7 +122,7 @@ export default function Stats() {
                                     Correctness
                                 </h2>
                                 <p>Total correct guesses = {guessCorrectness.realPoints + guessCorrectness.fakePoints} </p>
-                                <p>Correctness = {((guessCorrectness.realPoints + guessCorrectness.fakePoints) / data.length) * 100}% </p>
+                                <p>Correctness = {Math.round(((guessCorrectness.realPoints + guessCorrectness.fakePoints) / data.length) * 100)}% </p>
                                 <p>Real albums = {guessCorrectness.realPoints}</p>
                                 <p>Fake albums = {guessCorrectness.fakePoints}</p>
                             </div>
