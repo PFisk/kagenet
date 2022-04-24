@@ -32,13 +32,13 @@ export const Album = () => {
 
     fetchData();
     genID();
-    
+
   }, [])
 
   function shuffle(array) {
-    const shuffledArray = array.map(value => ({value, sort: Math.random() }))
-    .sort((a, b) => a.sort - b.sort)
-    .map(({ value }) => value)
+    const shuffledArray = array.map(value => ({ value, sort: Math.random() }))
+      .sort((a, b) => a.sort - b.sort)
+      .map(({ value }) => value)
 
     return shuffledArray;
   }
@@ -46,11 +46,11 @@ export const Album = () => {
   async function setNextAlbum() {
     setAlbum(imageData[albumcount % imageData.length]);
     setProgress(Math.round(albumcount / threshold * 100))
-    
+
     if (albumcount >= threshold) {
       setShowThreshold(true);
     }
-    
+
     if ((albumcount / imageData.length) * 100 >= 100) {
       setShowComplete(true);
     }
@@ -83,25 +83,25 @@ export const Album = () => {
     <div>
       {!album && (
         <div>
-        <div className={styles.survey_info}>
-        <h1 className={styles.title}>
-                KageNet Album Cover Survey &#x270d;
-              </h1>
-          <p>
-            This survey is part of a master thesis project in which we are researching potential connections between music and its corresponding album cover art.
-            One part of the project is focused on understanding associations using machine learning, while the other is focused on human evaluation.
-            <br />
-            <br />
-            You will be shown album covers that are purposefully in low resolution.
-            <br />
-            <br />
-            The survey is simple - answer what you think is the correct genre for the album cover shown.
-            <br />
-            <br />
-            Thanks a lot for your time!
-          </p>
-          <button onClick={setNextAlbum} className={styles.button_alt}>Lets go!</button>
-        </div>
+          <div className={styles.survey_info}>
+            <h1 className={styles.title}>
+              KageNet Album Cover Survey &#x270d;
+            </h1>
+            <p>
+              This survey is part of a master thesis project in which we are researching potential connections between music and its corresponding album cover art.
+              One part of the project is focused on understanding associations using machine learning, while the other is focused on human evaluation.
+              <br />
+              <br />
+              You will be shown album covers that are purposefully in low resolution.
+              <br />
+              <br />
+              The survey is simple - answer what you think is the correct genre for the album cover shown.
+              <br />
+              <br />
+              Thanks a lot for your time!
+            </p>
+            <button onClick={setNextAlbum} className={styles.button_alt}>Lets go!</button>
+          </div>
         </div>
       )}
       {!responseThreshold && <Modal title="Thank you!" onClose={() => surveyThreshold()} show={showThreshold} hasButton={true}
@@ -163,7 +163,7 @@ export const Album = () => {
           </button>
         </div>
         <div>
-          {!responseThreshold && <ProgressBar bgColor={"#109933"} completed={progress}/>}
+          {!responseThreshold && <ProgressBar bgColor={"#109933"} completed={progress} />}
         </div>
       </div>
       }

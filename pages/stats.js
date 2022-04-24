@@ -1,6 +1,7 @@
 import styles from '../styles/Home.module.css'
 import Parse from "parse";
-import * as React from 'react';
+import getSurveyResponses from '../data/surveyData';
+import React, { useState, useEffect } from 'react';
 import Table from '@mui/material/Table';
 import TableBody from '@mui/material/TableBody';
 import TableCell from '@mui/material/TableCell';
@@ -8,19 +9,6 @@ import TableContainer from '@mui/material/TableContainer';
 import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
-
-const responses = Parse.Object.extend("survey_responses");
-
-async function getStats() {
-    const Query = new Parse.Query(responses);   
-    const allResponses = await Query.find();
-
-    const totalResponses = allResponses.length;
-
-
-
-}
-
 
 function createData(name, calories, fat, carbs, protein) {
     return { name, calories, fat, carbs, protein };
@@ -35,6 +23,20 @@ const rows = [
 ];
 
 export default function Stats() {
+
+    const [data, setData] = React.useState(null);
+
+    useEffect(() => {
+        async function fetchData() {
+            const responses = await getSurveyResponses();
+            setData(responses);
+            console.log(responses);
+        }
+
+        fetchData();
+
+    }, [])
+
     return (
         <div className={styles.container}>
             <h1 className={styles.title}>
