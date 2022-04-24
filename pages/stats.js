@@ -1,78 +1,142 @@
 import styles from '../styles/Home.module.css'
 import Parse from "parse";
 import getSurveyResponses from '../data/surveyData';
+import getAlbumData from '../data/albumData';
 import React, { useState, useEffect } from 'react';
-import Table from '@mui/material/Table';
-import TableBody from '@mui/material/TableBody';
-import TableCell from '@mui/material/TableCell';
-import TableContainer from '@mui/material/TableContainer';
-import TableHead from '@mui/material/TableHead';
-import TableRow from '@mui/material/TableRow';
-import Paper from '@mui/material/Paper';
 
-function createData(name, calories, fat, carbs, protein) {
-    return { name, calories, fat, carbs, protein };
+const thresholdPct = 50;
+
+
+function getUniqueResponseIDs(surveyResponses) {
+    const uniqueResponseIDs = [];
+    surveyResponses.forEach(response => {
+        if (!uniqueResponseIDs.includes(response.get('user_id'))) {
+            uniqueResponseIDs.push(response.get('user_id'));
+        }
+    })
+    return uniqueResponseIDs;
 }
 
-const rows = [
-    createData('Frozen yoghurt', 159, 6.0, 24, 4.0),
-    createData('Ice cream sandwich', 237, 9.0, 37, 4.3),
-    createData('Eclair', 262, 16.0, 24, 6.0),
-    createData('Cupcake', 305, 3.7, 67, 4.3),
-    createData('Gingerbread', 356, 16.0, 49, 3.9),
-];
+function getGuessCorrectness(albumData, surveyResponses, thresholdPct) {
+    let realPoints = 0;
+    let fakePoints = 0;
+    const realOverThreshold = [];
+    const fakeOverThreshold = [];
+
+    albumData.forEach(album => {
+        const albumID = album.get('album_id');
+        const isAlbumReal = album.get('real');
+        const genre = album.get('album_genre');
+        const albumGuesses = surveyResponses.filter(response => response.get('cover_name') === albumID);
+
+        let addedRealPoints = 0;
+        let addedFakePoints = 0;
+
+        albumGuesses.forEach(guess => {
+            if (guess.get('guess') === genre) {
+                if (isAlbumReal) {
+                    addedRealPoints++;
+                } else {
+                    addedFakePoints++;
+                }
+            }
+    
+        })
+
+        if ((addedRealPoints/albumGuesses.length)*100 > thresholdPct) {
+            realOverThreshold.push(albumID);
+        }
+        if ((addedFakePoints/albumGuesses.length)*100 > thresholdPct) {
+            fakeOverThreshold.push(albumID);
+        }
+
+        realPoints += addedRealPoints;
+        fakePoints += addedFakePoints;
+
+    })
+
+    const realOverOutput = realOverThreshold.length;
+    const fakeOverOutput = fakeOverThreshold.length;
+
+
+    return { realPoints, fakePoints, realOverOutput, fakeOverOutput };
+}
+
 
 export default function Stats() {
 
-    const [data, setData] = React.useState(null);
+    const [data, setData] = React.useState({});
+    const [albumData, setAlbumData] = React.useState({});
+    const [uniqueIDs, setUniqueIDs] = React.useState([]);
+    const [guessCorrectness, setGuessCorrectness] = React.useState({});
+    const [loading, setLoading] = React.useState(true);
 
     useEffect(() => {
         async function fetchData() {
-            const responses = await getSurveyResponses();
-            setData(responses);
-            console.log(responses);
+            console.log('fetching data');
+            await getSurveyResponses().then((res) => {
+                setData(res);
+                setLoading(false);
+            });
+            console.log("Got survey data")
+
+            await getAlbumData().then((res) => {
+                setAlbumData(res);
+            });
+            console.log("Got album data")
         }
 
         fetchData();
-
     }, [])
 
+    useEffect(() => {
+        if (Object.keys(data).length === 0) return
+        setUniqueIDs(getUniqueResponseIDs(data));
+    }, [data])
+
+    useEffect(() => {
+        if (Object.keys(albumData).length === 0) return
+        setGuessCorrectness(getGuessCorrectness(albumData, data, thresholdPct));
+    }, [albumData])
+
+
     return (
-        <div className={styles.container}>
-            <h1 className={styles.title}>
-                Statistics
-            </h1>
-            <main className={styles.main}>
-                <TableContainer component={Paper}>
-                    <Table sx={{ minWidth: 650 }} size="small" aria-label="a dense table">
-                        <TableHead>
-                            <TableRow>
-                                <TableCell>Dessert (100g serving)</TableCell>
-                                <TableCell align="right">Calories</TableCell>
-                                <TableCell align="right">Fat&nbsp;(g)</TableCell>
-                                <TableCell align="right">Carbs&nbsp;(g)</TableCell>
-                                <TableCell align="right">Protein&nbsp;(g)</TableCell>
-                            </TableRow>
-                        </TableHead>
-                        <TableBody>
-                            {rows.map((row) => (
-                                <TableRow
-                                    key={row.name}
-                                    sx={{ '&:last-child td, &:last-child th': { border: 0 } }}
-                                >
-                                    <TableCell component="th" scope="row">
-                                        {row.name}
-                                    </TableCell>
-                                    <TableCell align="right">{row.calories}</TableCell>
-                                    <TableCell align="right">{row.fat}</TableCell>
-                                    <TableCell align="right">{row.carbs}</TableCell>
-                                    <TableCell align="right">{row.protein}</TableCell>
-                                </TableRow>
-                            ))}
-                        </TableBody>
-                    </Table>
-                </TableContainer>
-            </main>
+        <div>
+            {loading ? <div>Loading...</div> :
+                <div className={styles.container}>
+                    <h1 className={styles.title}>
+                        Statistics
+                    </h1>
+                    <main className={styles.main}>
+                        <div className={styles.grid}>
+                            <div className={styles.card}>
+                                <h2>
+                                    Survey Responses
+                                </h2>
+                                <p>Total responses = {data.length}</p>
+                                <p>Unique response IDs = {uniqueIDs.length} </p>
+                                <p>Average per ID = {Math.round(data.length / uniqueIDs.length)}</p>
+                            </div>
+                            <div className={styles.card}>
+                                <h2>
+                                    Correctness
+                                </h2>
+                                <p>Total correct guesses = {guessCorrectness.realPoints + guessCorrectness.fakePoints} </p>
+                                <p>Correctness = {((guessCorrectness.realPoints + guessCorrectness.fakePoints) / data.length) * 100}% </p>
+                                <p>Real albums = {guessCorrectness.realPoints}</p>
+                                <p>Fake albums = {guessCorrectness.fakePoints}</p>
+                            </div>
+                            <div className={styles.card}>
+                                <h2>
+                                    Artist agreement
+                                </h2>
+                                <p>Real albums with {'>'} 50% agreement = {guessCorrectness.realOverOutput} </p>
+                                <p>Fake albums with {'>'} 50% agreement = {guessCorrectness.fakeOverOutput} </p>
+                            </div>
+                        </div>
+                    </main>
+                </div>
+            }
         </div>
     );
 }

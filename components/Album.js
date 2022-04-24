@@ -144,10 +144,10 @@ export const Album = () => {
             Jazz
           </button>
           <button onClick={() => response("folk / country")} className={styles.button} type="button">
-            Folk and Country
+            Folk / Country
           </button>
           <button onClick={() => response("funk / soul")} className={styles.button} type="button">
-            Funk and Soul
+            Funk / Soul
           </button>
           <button onClick={() => response("classical")} className={styles.button} type="button">
             Classical
