@@ -205,13 +205,14 @@
   text-decoration: none;
   border: none;
   font-size: 14px;
+  font-weight: 600;
   font-family: inherit;
   color: #202020;
   width: 9em;
   height: 3em;
   line-height: 2em;
   text-align: center;
-  background: linear-gradient(45deg,#d3d3d3, #a3a3a3);
+  background: #d3d3d3;
   background-size: 150%;
   border-radius: 16px;
   margin: 3px;
@@ -240,7 +241,8 @@
 }
 
 .button:hover {
-  border: 2px solid #4e9b53;
+  border: 2px solid #2b8dcf;
+  background: #c2c2c2;
   cursor: pointer;
 }
 
