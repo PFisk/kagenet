@@ -11,18 +11,20 @@ const threshold = 20;
 
 export const Album = () => {
 
-  const [imageData, setImageData] = useState(null);
+  const [imageData, setImageData] = useState({});
   const [album, setAlbum] = useState(null);
   const [progress, setProgress] = useState(0);
   const [showThreshold, setShowThreshold] = useState(false);
   const [showComplete, setShowComplete] = useState(false);
   const [userID, setUserID] = useState(null);
+  const [loading, setLoading] = React.useState(true);
 
   useEffect(() => {
     async function fetchData() {
       const allAlbums = await getAllImages();
       const shuffledArray = shuffle(allAlbums);
       setImageData(shuffledArray);
+      setLoading(false);
     }
     function genID() {
       const crypto = require("crypto");
@@ -34,6 +36,10 @@ export const Album = () => {
     genID();
 
   }, [])
+
+  useEffect(() => {
+    if (Object.keys(imageData).length === 0) return
+  }, [imageData])
 
   function shuffle(array) {
     const shuffledArray = array.map(value => ({ value, sort: Math.random() }))
@@ -92,7 +98,7 @@ export const Album = () => {
               One part of the project is focused on understanding associations using machine learning, while the other is focused on human evaluation.
               <br />
               <br />
-              You will be shown album covers that are purposefully in low resolution.
+              You will be shown album covers that are <b>purposefully</b> in low resolution.
               <br />
               <br />
               The survey is simple - answer what you think is the correct genre for the album cover shown.
@@ -116,6 +122,7 @@ export const Album = () => {
             Which genre?
           </h1>
           <div className={styles.image_wrapper}>
+          {loading ? <div>Loading image ⏳...</div> :
             <div className={styles.image_container}>
               <img
                 className={styles.image}
@@ -123,7 +130,7 @@ export const Album = () => {
                 alt="album cover"
               />
 
-            </div>
+            </div>}
           </div>
         </div>)}
       {album && <div>
