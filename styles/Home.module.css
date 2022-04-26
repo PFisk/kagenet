@@ -274,9 +274,5 @@
     line-height: 1em;
     border-radius: 12px;
   }
-  .button:hover {
-    border: none;
-    background: #d3d3d3;
-  }
 
 }
