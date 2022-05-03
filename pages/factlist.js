@@ -62,7 +62,7 @@ export default function Facts() {
                         </h1>
                     </div>
                     <div className={styles.main}>
-                        <div className={styles.grid}>
+                        <div className={styles.factgrid}>
                         {Object.keys(imageData).map((key) => {
                             return (
                                 <Cover key={key} data={imageData[key]} />

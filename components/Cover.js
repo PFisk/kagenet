@@ -6,7 +6,7 @@ const Cover = (props) => {
     const data = props.data;
 
     return (
-        <div className={styles.card}>
+        <div className={styles.factcard}>
             <h2>
                 {data.id}
             </h2>
