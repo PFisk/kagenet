@@ -24,7 +24,8 @@ const Cover = (props) => {
             total: data.albumGuesses.length
         })
 
-        return formattedData;
+        return Object.entries(formattedData[0]).sort((a, b) => b[1] - a[1])
+
     }
 
     const guesses = dataFormatter(data);
@@ -47,7 +48,12 @@ const Cover = (props) => {
             </div>
             <div className={styles.card_body}>
                 <p>
-                    Rock: {guesses[0].rock}
+                    {guesses.map((e, i) => {
+                        return <div key={i}>
+                            <span>{e[0]}: </span>
+                            <span>{e[1]}</span>
+                        </div>
+                    })}
                 </p>
             </div>
         </div>
