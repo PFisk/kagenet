@@ -37,9 +37,11 @@ function getAlbumGuesses(albumData, surveyResponses, imageData) {
 
     })
 
-    console.log(albumGuessData);
+    const sortedData = albumGuessData.sort((a, b) => { let fa = a.albumID, fb = b.albumID; if (fa < fb) return -1; if (fa > fb) return 1; return 0; });
 
-    return albumGuessData;
+    console.log("sortedData", sortedData);
+
+    return sortedData;
 
 }
 

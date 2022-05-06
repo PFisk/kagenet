@@ -1,3 +1,4 @@
+import { generateUtilityClass } from "@mui/material";
 import React from "react";
 import styles from "../styles/Home.module.css";
 
@@ -24,13 +25,49 @@ const Cover = (props) => {
             total: data.albumGuesses.length
         })
 
-        return Object.entries(formattedData[0]).sort((a, b) => b[1] - a[1])
+        const sortedData = Object.entries(formattedData[0]).sort((a, b) => b[1] - a[1]);
+
+        return sortedData;
 
     }
 
-    const guesses = dataFormatter(data);
+    function getCorrectGuesses(data, sortedData) {
+        let correctAns = 0;
 
-    console.log(guesses);
+        data.genre.forEach(genre => {
+
+            let fixedgenre = "";
+
+            if (genre === 'folk / country') {
+                fixedgenre = 'folk_country';
+            } else if (genre === 'funk / soul') {
+                fixedgenre = 'funk_soul';
+            } else if (genre === 'hip hop') {
+                fixedgenre = 'hip_hop';
+            } else {
+                fixedgenre = genre;
+            }
+
+            sortedData.forEach(e => {
+                if (e[0] === fixedgenre) {
+
+                    console.log("Genre ", e[0], " has ", e[1], " correct guesses");
+                    console.log("adding")
+                    correctAns += e[1];
+                }
+
+            })
+
+        })
+
+        return correctAns;
+    }
+
+    const guesses = dataFormatter(data);
+    const correctGuesses = getCorrectGuesses(data, guesses);
+
+    console.log("guesses", guesses);
+    console.log("Correct guesses", correctGuesses);
 
 
     return (
@@ -47,13 +84,25 @@ const Cover = (props) => {
 
             </div>
             <div className={styles.card_body}>
+                <h4>
+                    Correct genres:
+                    {data.genre.map((genre, index) => {
+                        return <li key={index}>{genre}</li>
+                    })}
+                </h4>
+
                 <p>
+                    <b>Responses:</b>
                     {guesses.map((e, i) => {
                         return <div key={i}>
                             <span>{e[0]}: </span>
                             <span>{e[1]}</span>
                         </div>
                     })}
+                    <br/>
+                    <b>Correct guesses: {correctGuesses}</b>
+                    <br/>
+                    <b>Correctness: {Math.round((correctGuesses/guesses[0][1])*100)} %</b>
                 </p>
             </div>
         </div>
