@@ -1,5 +1,6 @@
 import styles from '../styles/Home.module.css'
 import Parse from "parse";
+import Head from 'next/head'
 import getSurveyResponses from '../data/surveyData';
 import getAlbumData from '../data/albumData';
 import React, { useState, useEffect } from 'react';
@@ -40,13 +41,13 @@ function getGuessCorrectness(albumData, surveyResponses, thresholdPct) {
                     addedFakePoints++;
                 }
             }
-    
+
         })
 
-        if ((addedRealPoints/albumGuesses.length)*100 > thresholdPct) {
+        if ((addedRealPoints / albumGuesses.length) * 100 > thresholdPct) {
             realOverThreshold.push(albumID);
         }
-        if ((addedFakePoints/albumGuesses.length)*100 > thresholdPct) {
+        if ((addedFakePoints / albumGuesses.length) * 100 > thresholdPct) {
             fakeOverThreshold.push(albumID);
         }
 
@@ -102,41 +103,46 @@ export default function Stats() {
 
     return (
         <div>
-            {loading ? <div>Loading...</div> :
-                <div className={styles.container}>
-                    <h1 className={styles.title}>
-                        Statistics
-                    </h1>
-                    <main className={styles.main}>
-                        <div className={styles.grid}>
-                            <div className={styles.card}>
-                                <h2>
-                                    Survey Responses
-                                </h2>
-                                <p>Total responses = {data.length}</p>
-                                <p>Unique response IDs = {uniqueIDs.length} </p>
-                                <p>Average per ID = {Math.round(data.length / uniqueIDs.length)}</p>
+            <Head>
+                <title>Stats</title>
+            </Head>
+            <div>
+                {loading ? <div>Loading...</div> :
+                    <div className={styles.container}>
+                        <h1 className={styles.title}>
+                            Statistics
+                        </h1>
+                        <main className={styles.main}>
+                            <div className={styles.grid}>
+                                <div className={styles.card}>
+                                    <h2>
+                                        Survey Responses
+                                    </h2>
+                                    <p>Total responses = {data.length}</p>
+                                    <p>Unique response IDs = {uniqueIDs.length} </p>
+                                    <p>Average per ID = {Math.round(data.length / uniqueIDs.length)}</p>
+                                </div>
+                                <div className={styles.card}>
+                                    <h2>
+                                        Correctness
+                                    </h2>
+                                    <p>Total correct guesses = {guessCorrectness.realPoints + guessCorrectness.fakePoints} </p>
+                                    <p>Correctness = {Math.round(((guessCorrectness.realPoints + guessCorrectness.fakePoints) / data.length) * 100)}% </p>
+                                    <p>Real albums = {guessCorrectness.realPoints}</p>
+                                    <p>Fake albums = {guessCorrectness.fakePoints}</p>
+                                </div>
+{/*                                 <div className={styles.card}>
+                                    <h2>
+                                        Artist agreement
+                                    </h2>
+                                    <p>Real albums with {'>'} {thresholdPct}% agreement = {guessCorrectness.realOverOutput} </p>
+                                    <p>Fake albums with {'>'} {thresholdPct}% agreement = {guessCorrectness.fakeOverOutput} </p>
+                                </div> */}
                             </div>
-                            <div className={styles.card}>
-                                <h2>
-                                    Correctness
-                                </h2>
-                                <p>Total correct guesses = {guessCorrectness.realPoints + guessCorrectness.fakePoints} </p>
-                                <p>Correctness = {Math.round(((guessCorrectness.realPoints + guessCorrectness.fakePoints) / data.length) * 100)}% </p>
-                                <p>Real albums = {guessCorrectness.realPoints}</p>
-                                <p>Fake albums = {guessCorrectness.fakePoints}</p>
-                            </div>
-                            <div className={styles.card}>
-                                <h2>
-                                    Artist agreement
-                                </h2>
-                                <p>Real albums with {'>'} {thresholdPct}% agreement = {guessCorrectness.realOverOutput} </p>
-                                <p>Fake albums with {'>'} {thresholdPct}% agreement = {guessCorrectness.fakeOverOutput} </p>
-                            </div>
-                        </div>
-                    </main>
-                </div>
-            }
+                        </main>
+                    </div>
+                }
+            </div>
         </div>
     );
 }

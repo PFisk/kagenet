@@ -50,9 +50,6 @@ const Cover = (props) => {
 
             sortedData.forEach(e => {
                 if (e[0] === fixedgenre) {
-
-                    console.log("Genre ", e[0], " has ", e[1], " correct guesses");
-                    console.log("adding")
                     correctAns += e[1];
                 }
 
@@ -65,10 +62,6 @@ const Cover = (props) => {
 
     const guesses = dataFormatter(data);
     const correctGuesses = getCorrectGuesses(data, guesses);
-
-    console.log("guesses", guesses);
-    console.log("Correct guesses", correctGuesses);
-
 
     return (
         <div className={styles.factcard}>

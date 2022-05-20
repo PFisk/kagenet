@@ -69,21 +69,27 @@ export const Album = () => {
     responseThreshold = true;
   }
 
-  async function response(guess) {
-    const Response = Parse.Object.extend("survey_responses")
-    const newResponse = new Response()
-
-    newResponse.set("cover_name", album.id)
-    newResponse.set("guess", guess.toLowerCase())
-    newResponse.set("user_id", userID)
-
-    newResponse.save().then((response) => {
-      console.log("genre guessed: ", response.get("guess"))
-      setNextAlbum()
-    }, (error) => {
-      console.log("Error: ", error)
-    })
+  function response(guess) {
+    setNextAlbum();
   }
+
+  // Below function handled sending survey responses to the database, but is disabled as the survey had ended.
+
+/*  async function response(guess) {
+      const Response = Parse.Object.extend("survey_responses")
+      const newResponse = new Response()
+
+      newResponse.set("cover_name", album.id)
+      newResponse.set("guess", guess.toLowerCase())
+      newResponse.set("user_id", userID)
+
+      newResponse.save().then((response) => {
+        console.log("genre guessed: ", response.get("guess"))
+        setNextAlbum()
+      }, (error) => {
+        console.log("Error: ", error)
+      })
+  } */
 
   return (
     <div>

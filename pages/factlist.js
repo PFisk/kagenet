@@ -1,4 +1,5 @@
 import styles from '../styles/Home.module.css'
+import Head from 'next/head'
 import getSurveyResponses from '../data/surveyData';
 import getAlbumData from '../data/albumData';
 import getAllImages from "../data/imageData.js";
@@ -38,8 +39,6 @@ function getAlbumGuesses(albumData, surveyResponses, imageData) {
     })
 
     const sortedData = albumGuessData.sort((a, b) => { let fa = a.albumID, fb = b.albumID; if (fa < fb) return -1; if (fa > fb) return 1; return 0; });
-
-    console.log("sortedData", sortedData);
 
     return sortedData;
 
@@ -94,25 +93,30 @@ export default function Facts() {
 
     return (
         <div>
-            {loading ? <div>Loading...</div> :
+            <Head>
+                <title>Facts</title>
+            </Head>
+            <div>
+                {loading ? <div>Loading...</div> :
 
-                <div className={styles.container}>
-                    <div className={styles.title}>
-                        <h2>
-                            Facts
-                        </h2>
-                    </div>
-                    <div className={styles.main}>
-                        <div className={styles.factgrid}>
-                            {Object.keys(finalCardData).map((key) => {
-                                return (
-                                    <Cover key={key} data={finalCardData[key]} />
-                                )
-                            })}
+                    <div className={styles.container}>
+                        <div className={styles.title}>
+                            <h2>
+                                Facts
+                            </h2>
+                        </div>
+                        <div className={styles.main}>
+                            <div className={styles.factgrid}>
+                                {Object.keys(finalCardData).map((key) => {
+                                    return (
+                                        <Cover key={key} data={finalCardData[key]} />
+                                    )
+                                })}
+                            </div>
                         </div>
                     </div>
-                </div>
-            }
+                }
+            </div>
         </div>
     )
 }
