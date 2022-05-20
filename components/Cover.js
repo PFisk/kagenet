@@ -1,4 +1,3 @@
-import { generateUtilityClass } from "@mui/material";
 import React from "react";
 import styles from "../styles/Home.module.css";
 
@@ -63,8 +62,22 @@ const Cover = (props) => {
     const guesses = dataFormatter(data);
     const correctGuesses = getCorrectGuesses(data, guesses);
 
+    const correctnessPct = Math.round((correctGuesses/guesses[0][1])*100)
+
+    function getBorderColor() {
+        if (correctnessPct > 50 && data.real) {
+            return styles.factcard_highlight_real;
+        } else if (correctnessPct > 50 && !data.real) {
+            return styles.factcard_highlight_fake;
+        } else {
+            return styles.factcard;
+        }
+    }
+
+    //correctnessPct >= 50 && data.real ? styles.factcard_highlight_real : correctnessPct >= 50 && !data.real ? styles.factcard_highligt_fake : styles.factcard
+
     return (
-        <div className={styles.factcard}>
+        <div className={getBorderColor()}>
             <h2>
                 {data.albumID}
             </h2>
@@ -95,7 +108,7 @@ const Cover = (props) => {
                     <br/>
                     <b>Correct guesses: {correctGuesses}</b>
                     <br/>
-                    <b>Correctness: {Math.round((correctGuesses/guesses[0][1])*100)} %</b>
+                    <b>Correctness: {correctnessPct} %</b>
                 </p>
             </div>
         </div>
